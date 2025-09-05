@@ -1,12 +1,19 @@
 import os
+import sys
 import cv2 as cv
 import numpy as np
 import json
 
 # Paths
-project_root = os.path.dirname(os.path.abspath(__file__))  # backend folder
-data_dir = os.path.join(project_root, "../data/faces/train")
-model_dir = os.path.join(project_root, "../data/models")
+# Ensure project root on sys.path when invoked directly
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
+project_root = CURRENT_DIR  # backend folder
+data_dir = os.path.join(PROJECT_ROOT, "data", "faces", "train")
+model_dir = os.path.join(PROJECT_ROOT, "data", "models")
 os.makedirs(model_dir, exist_ok=True)
 
 # Training data containers
@@ -18,7 +25,7 @@ student_folders = [f for f in os.listdir(data_dir) if os.path.isdir(os.path.join
 student_folders.sort()  # consistent mapping
 student_id_map = {name: idx for idx, name in enumerate(student_folders)}
 
-print("🔍 Students found for training:", student_id_map)
+print(" Students found for training:", student_id_map)
 
 # Collect faces & labels
 for student_name, student_id in student_id_map.items():
@@ -28,7 +35,7 @@ for student_name, student_id in student_id_map.items():
             img_path = os.path.join(student_path, file_name)
             img = cv.imread(img_path, cv.IMREAD_GRAYSCALE)
             if img is None:
-                print(f"⚠️ Skipping unreadable image: {img_path}")
+                print(f" Skipping unreadable image: {img_path}")
                 continue
 
             # Ensure consistent size
@@ -41,7 +48,7 @@ for student_name, student_id in student_id_map.items():
 faces = np.array(faces, dtype="uint8")  # uint8 = required for OpenCV
 labels = np.array(labels)
 
-print(f"✅ Collected {len(faces)} face images for training.")
+print(f" Collected {len(faces)} face images for training.")
 
 # Train recognizer
 face_recognizer = cv.face.LBPHFaceRecognizer_create()

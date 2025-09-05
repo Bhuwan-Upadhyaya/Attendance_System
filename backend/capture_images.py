@@ -1,17 +1,23 @@
-import cv2 as cv
 import os
+import sys
+import cv2 as cv
 
 # Ask user for student number
 student_number = input("Enter student number: ")
 student_name = f"Student_{student_number}"
 
 # Build absolute save directory
-project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-save_dir = os.path.join(project_root, "data", "faces", "train", student_name)
+# Ensure project root on sys.path for consistent paths
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
+save_dir = os.path.join(PROJECT_ROOT, "data", "faces", "train", student_name)
 os.makedirs(save_dir, exist_ok=True)
 
 # Camera & Haar cascade
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture(1)
 haar_cascade = cv.CascadeClassifier(cv.data.haarcascades + "haarcascade_frontalface_default.xml")
 
 count = 0
