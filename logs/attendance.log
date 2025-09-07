@@ -238,3 +238,154 @@
 2025-09-07 13:14:32,460 - WARNING - Student Student_1 not found in database
 2025-09-07 13:14:32,535 - INFO - Face recognition stopped by user
 2025-09-07 13:14:32,581 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-07 13:24:39,255 - INFO - New student added: Student 1 (roll_no: Student_1, ID: 2)
+2025-09-07 13:24:39,255 - INFO - New student added: Student 2 (roll_no: Student_2, ID: 3)
+2025-09-07 13:24:39,256 - INFO - New student added: Student 3 (roll_no: Student_3, ID: 4)
+2025-09-07 13:24:39,256 - INFO - New student added: Student 4 (roll_no: Student_4, ID: 5)
+2025-09-07 13:24:39,257 - INFO - New student added: Student 5 (roll_no: Student_5, ID: 6)
+2025-09-07 13:24:39,257 - INFO - New student added: Student 6 (roll_no: Student_6, ID: 7)
+2025-09-07 13:24:39,257 - INFO - New student added: Student 7 (roll_no: Student_7, ID: 8)
+2025-09-07 13:24:39,258 - INFO - New student added: Student 8 (roll_no: Student_8, ID: 9)
+2025-09-07 13:24:39,258 - INFO - New student added: Student 9 (roll_no: Student_9, ID: 10)
+2025-09-07 13:24:39,258 - INFO - New student added: Student 10 (roll_no: Student_10, ID: 11)
+2025-09-07 13:24:39,258 - INFO - New student added: Student 11 (roll_no: Student_11, ID: 12)
+2025-09-07 13:24:39,259 - INFO - New student added: Student 12 (roll_no: Student_12, ID: 13)
+2025-09-07 13:24:39,259 - INFO - New student added: Student 13 (roll_no: Student_13, ID: 14)
+2025-09-07 13:24:39,259 - INFO - New student added: Student 14 (roll_no: Student_14, ID: 15)
+2025-09-07 13:24:39,260 - INFO - New student added: Student 15 (roll_no: Student_15, ID: 16)
+2025-09-07 13:24:39,260 - INFO - New student added: Student 16 (roll_no: Student_16, ID: 17)
+2025-09-07 13:24:39,261 - INFO - New student added: Student 17 (roll_no: Student_17, ID: 18)
+2025-09-07 13:24:39,261 - INFO - New student added: Student 18 (roll_no: Student_18, ID: 19)
+2025-09-07 13:24:39,262 - INFO - New student added: Student 19 (roll_no: Student_19, ID: 20)
+2025-09-07 13:24:39,262 - INFO - New student added: Student 20 (roll_no: Student_20, ID: 21)
+2025-09-07 13:27:40,695 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-07 13:27:40,696 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 13:27:40,696 - INFO -  * Restarting with stat
+2025-09-07 13:27:40,784 - WARNING -  * Debugger is active!
+2025-09-07 13:27:40,788 - INFO -  * Debugger PIN: 977-442-181
+2025-09-07 13:27:48,616 - INFO - 127.0.0.1 - - [07/Sep/2025 13:27:48] "GET / HTTP/1.1" 200 -
+2025-09-07 13:27:53,972 - INFO - Students found for training: {'Student_1': 0, 'Student_10': 1, 'Student_11': 2, 'Student_12': 3, 'Student_13': 4, 'Student_14': 5, 'Student_15': 6, 'Student_16': 7, 'Student_17': 8, 'Student_18': 9, 'Student_19': 10, 'Student_2': 11, 'Student_20': 12, 'Student_3': 13, 'Student_4': 14, 'Student_5': 15, 'Student_6': 16, 'Student_7': 17, 'Student_8': 18, 'Student_9': 19}
+2025-09-07 13:27:53,991 - INFO - Loaded 20 images for Student_1
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_10
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_11
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_12
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_13
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_14
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_15
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_16
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_17
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_18
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_19
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_2
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_20
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_3
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_4
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_5
+2025-09-07 13:27:53,991 - INFO - Loaded 0 images for Student_6
+2025-09-07 13:27:53,992 - INFO - Loaded 0 images for Student_7
+2025-09-07 13:27:53,992 - INFO - Loaded 0 images for Student_8
+2025-09-07 13:27:53,992 - INFO - Loaded 0 images for Student_9
+2025-09-07 13:27:53,992 - INFO - Collected 20 face images for training
+2025-09-07 13:27:53,992 - INFO - Starting face recognizer training...
+2025-09-07 13:28:12,454 - INFO - Students found for training: {'Student_1': 0, 'Student_10': 1, 'Student_11': 2, 'Student_12': 3, 'Student_13': 4, 'Student_14': 5, 'Student_15': 6, 'Student_16': 7, 'Student_17': 8, 'Student_18': 9, 'Student_19': 10, 'Student_2': 11, 'Student_20': 12, 'Student_3': 13, 'Student_4': 14, 'Student_5': 15, 'Student_6': 16, 'Student_7': 17, 'Student_8': 18, 'Student_9': 19}
+2025-09-07 13:28:22,813 - INFO - Students found for training: {'Student_1': 0, 'Student_10': 1, 'Student_11': 2, 'Student_12': 3, 'Student_13': 4, 'Student_14': 5, 'Student_15': 6, 'Student_16': 7, 'Student_17': 8, 'Student_18': 9, 'Student_19': 10, 'Student_2': 11, 'Student_20': 12, 'Student_3': 13, 'Student_4': 14, 'Student_5': 15, 'Student_6': 16, 'Student_7': 17, 'Student_8': 18, 'Student_9': 19}
+2025-09-07 13:28:22,833 - INFO - Loaded 20 images for Student_1
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_10
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_11
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_12
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_13
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_14
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_15
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_16
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_17
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_18
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_19
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_2
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_20
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_3
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_4
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_5
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_6
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_7
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_8
+2025-09-07 13:28:22,833 - INFO - Loaded 0 images for Student_9
+2025-09-07 13:28:22,833 - INFO - Collected 20 face images for training
+2025-09-07 13:28:22,833 - INFO - Starting face recognizer training...
+2025-09-07 13:28:22,840 - INFO - Face recognizer training completed
+2025-09-07 13:28:22,868 - INFO - Model saved to data/models/face_recognizer.yml
+2025-09-07 13:28:22,868 - INFO - Student mapping saved to data/models/student_id_map.json
+2025-09-07 13:28:22,868 - INFO - Training process completed successfully
+2025-09-07 13:28:31,813 - INFO - Loaded student mapping: 20 students
+2025-09-07 13:28:31,837 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-07 13:28:31,837 - INFO - Starting face recognition for Morning session
+2025-09-07 13:28:33,060 - INFO - Camera opened successfully
+2025-09-07 13:28:34,065 - WARNING - Failed to read frame from camera
+2025-09-07 13:28:34,075 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-07 13:30:51,427 - INFO - Students found for training: {'Student_1': 0, 'Student_10': 1, 'Student_11': 2, 'Student_12': 3, 'Student_13': 4, 'Student_14': 5, 'Student_15': 6, 'Student_16': 7, 'Student_17': 8, 'Student_18': 9, 'Student_19': 10, 'Student_2': 11, 'Student_20': 12, 'Student_3': 13, 'Student_4': 14, 'Student_5': 15, 'Student_6': 16, 'Student_7': 17, 'Student_8': 18, 'Student_9': 19}
+2025-09-07 13:30:51,446 - INFO - Loaded 20 images for Student_1
+2025-09-07 13:30:51,446 - INFO - Loaded 0 images for Student_10
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_11
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_12
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_13
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_14
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_15
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_16
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_17
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_18
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_19
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_2
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_20
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_3
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_4
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_5
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_6
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_7
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_8
+2025-09-07 13:30:51,447 - INFO - Loaded 0 images for Student_9
+2025-09-07 13:30:51,447 - INFO - Collected 20 face images for training
+2025-09-07 13:30:51,447 - INFO - Starting face recognizer training...
+2025-09-07 13:30:51,455 - INFO - Face recognizer training completed
+2025-09-07 13:30:51,498 - INFO - Model saved to data/models/face_recognizer.yml
+2025-09-07 13:30:51,498 - INFO - Student mapping saved to data/models/student_id_map.json
+2025-09-07 13:30:51,498 - INFO - Training process completed successfully
+2025-09-07 13:31:13,910 - INFO - Students found for training: {'Student_1': 0, 'Student_10': 1, 'Student_11': 2, 'Student_12': 3, 'Student_13': 4, 'Student_14': 5, 'Student_15': 6, 'Student_16': 7, 'Student_17': 8, 'Student_18': 9, 'Student_19': 10, 'Student_2': 11, 'Student_20': 12, 'Student_3': 13, 'Student_4': 14, 'Student_5': 15, 'Student_6': 16, 'Student_7': 17, 'Student_8': 18, 'Student_9': 19}
+2025-09-07 13:31:13,923 - INFO - Loaded 20 images for Student_1
+2025-09-07 13:31:13,923 - INFO - Loaded 0 images for Student_10
+2025-09-07 13:31:13,923 - INFO - Loaded 0 images for Student_11
+2025-09-07 13:31:13,923 - INFO - Loaded 0 images for Student_12
+2025-09-07 13:31:13,923 - INFO - Loaded 0 images for Student_13
+2025-09-07 13:31:13,923 - INFO - Loaded 0 images for Student_14
+2025-09-07 13:31:13,923 - INFO - Loaded 0 images for Student_15
+2025-09-07 13:31:13,923 - INFO - Loaded 0 images for Student_16
+2025-09-07 13:31:13,923 - INFO - Loaded 0 images for Student_17
+2025-09-07 13:31:13,924 - INFO - Loaded 0 images for Student_18
+2025-09-07 13:31:13,924 - INFO - Loaded 0 images for Student_19
+2025-09-07 13:31:13,924 - INFO - Loaded 0 images for Student_2
+2025-09-07 13:31:13,924 - INFO - Loaded 0 images for Student_20
+2025-09-07 13:31:13,924 - INFO - Loaded 0 images for Student_3
+2025-09-07 13:31:13,924 - INFO - Loaded 0 images for Student_4
+2025-09-07 13:31:13,924 - INFO - Loaded 0 images for Student_5
+2025-09-07 13:31:13,924 - INFO - Loaded 0 images for Student_6
+2025-09-07 13:31:13,924 - INFO - Loaded 0 images for Student_7
+2025-09-07 13:31:13,924 - INFO - Loaded 0 images for Student_8
+2025-09-07 13:31:13,924 - INFO - Loaded 0 images for Student_9
+2025-09-07 13:31:13,924 - INFO - Collected 20 face images for training
+2025-09-07 13:31:13,924 - INFO - Starting face recognizer training...
+2025-09-07 13:31:13,930 - INFO - Face recognizer training completed
+2025-09-07 13:31:13,956 - INFO - Model saved to data/models/face_recognizer.yml
+2025-09-07 13:31:13,956 - INFO - Student mapping saved to data/models/student_id_map.json
+2025-09-07 13:31:13,956 - INFO - Training process completed successfully
+2025-09-07 13:33:31,980 - INFO - Loaded student mapping: 20 students
+2025-09-07 13:33:32,004 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-07 13:33:32,004 - INFO - Starting face recognition for Morning session
+2025-09-07 13:33:33,180 - INFO - Camera opened successfully
+2025-09-07 13:33:50,321 - INFO - 127.0.0.1 - - [07/Sep/2025 13:33:50] "GET / HTTP/1.1" 200 -
+2025-09-07 13:33:50,351 - INFO - 127.0.0.1 - - [07/Sep/2025 13:33:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-07 13:34:08,833 - INFO - Attendance marked: Student ID 2, Status: Present, Session: Morning, Date: 2025-09-07 13:34:08
+2025-09-07 13:34:08,833 - INFO - Student Student_1 (ID: 2) recognized with confidence 58.6
+2025-09-07 13:34:35,275 - WARNING - Failed to read frame from camera
+2025-09-07 13:34:35,292 - INFO - Face recognition session ended. Recognized 1 students
+2025-09-07 13:39:05,642 - INFO - 127.0.0.1 - - [07/Sep/2025 13:39:05] "GET / HTTP/1.1" 200 -
+2025-09-07 13:39:09,701 - INFO - Attendance marked: Student ID 2, Status: Present, Session: Morning, Date: 2025-09-07 13:39:09
+2025-09-07 13:39:20,148 - INFO - 127.0.0.1 - - [07/Sep/2025 13:39:20] "GET / HTTP/1.1" 200 -
