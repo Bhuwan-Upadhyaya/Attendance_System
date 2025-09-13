@@ -389,3 +389,71 @@
 2025-09-07 13:39:05,642 - INFO - 127.0.0.1 - - [07/Sep/2025 13:39:05] "GET / HTTP/1.1" 200 -
 2025-09-07 13:39:09,701 - INFO - Attendance marked: Student ID 2, Status: Present, Session: Morning, Date: 2025-09-07 13:39:09
 2025-09-07 13:39:20,148 - INFO - 127.0.0.1 - - [07/Sep/2025 13:39:20] "GET / HTTP/1.1" 200 -
+2025-09-10 15:05:35,988 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-10 15:05:35,989 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 15:05:35,990 - INFO -  * Restarting with stat
+2025-09-10 15:05:36,092 - WARNING -  * Debugger is active!
+2025-09-10 15:05:36,097 - INFO -  * Debugger PIN: 977-442-181
+2025-09-10 15:08:43,311 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-10 15:08:43,312 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 15:08:43,312 - INFO -  * Restarting with stat
+2025-09-10 15:08:43,392 - WARNING -  * Debugger is active!
+2025-09-10 15:08:43,396 - INFO -  * Debugger PIN: 977-442-181
+2025-09-13 16:36:54,469 - INFO - Starting image capture for Student_1
+2025-09-13 16:36:54,471 - INFO - Created directory: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1
+2025-09-13 16:36:55,744 - INFO - Camera opened successfully with index 0
+2025-09-13 16:36:56,785 - INFO - Image capture completed for Student_1. Saved 0 images in /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1
+2025-09-13 16:37:15,849 - INFO - Starting image capture for Student_1
+2025-09-13 16:37:15,850 - INFO - Created directory: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1
+2025-09-13 16:37:17,110 - INFO - Camera opened successfully with index 0
+2025-09-13 16:37:58,656 - INFO - Captured image 1 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_1.jpg
+2025-09-13 16:38:27,972 - INFO - Captured image 2 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_2.jpg
+2025-09-13 16:38:28,840 - INFO - Captured image 3 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_3.jpg
+2025-09-13 16:38:28,841 - INFO - Captured image 4 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_4.jpg
+2025-09-13 16:38:29,305 - INFO - Captured image 5 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_5.jpg
+2025-09-13 16:38:31,174 - INFO - Captured image 6 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_6.jpg
+2025-09-13 16:38:31,840 - INFO - Captured image 7 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_7.jpg
+2025-09-13 16:38:34,842 - INFO - Captured image 8 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_8.jpg
+2025-09-13 16:38:36,346 - INFO - Captured image 9 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_9.jpg
+2025-09-13 16:38:36,346 - INFO - Captured image 10 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_10.jpg
+2025-09-13 16:38:36,347 - INFO - Captured image 11 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_11.jpg
+2025-09-13 16:38:38,474 - INFO - Captured image 12 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_12.jpg
+2025-09-13 16:38:39,116 - INFO - Captured image 13 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_13.jpg
+2025-09-13 16:38:39,116 - INFO - Captured image 14 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_14.jpg
+2025-09-13 16:38:39,652 - INFO - Captured image 15 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_15.jpg
+2025-09-13 16:38:39,973 - INFO - Captured image 16 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_16.jpg
+2025-09-13 16:38:39,973 - INFO - Captured image 17 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_17.jpg
+2025-09-13 16:38:40,173 - INFO - Captured image 18 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_18.jpg
+2025-09-13 16:38:40,174 - INFO - Captured image 19 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_19.jpg
+2025-09-13 16:38:40,385 - INFO - Captured image 20 for Student_1: /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1/Student_1_20.jpg
+2025-09-13 16:38:40,459 - INFO - Image capture session ended. Total images captured: 20
+2025-09-13 16:38:40,466 - INFO - Image capture completed for Student_1. Saved 20 images in /Users/pirte/Desktop/attendance_system/data/faces/train/Student_1
+2025-09-13 16:38:57,745 - INFO - Students found for training: {'Student_1': 0, 'Student_10': 1, 'Student_11': 2, 'Student_12': 3, 'Student_13': 4, 'Student_14': 5, 'Student_15': 6, 'Student_16': 7, 'Student_17': 8, 'Student_18': 9, 'Student_19': 10, 'Student_2': 11, 'Student_20': 12, 'Student_3': 13, 'Student_4': 14, 'Student_5': 15, 'Student_6': 16, 'Student_7': 17, 'Student_8': 18, 'Student_9': 19}
+2025-09-13 16:38:57,749 - INFO - Loaded 20 images for Student_1
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_10
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_11
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_12
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_13
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_14
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_15
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_16
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_17
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_18
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_19
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_2
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_20
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_3
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_4
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_5
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_6
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_7
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_8
+2025-09-13 16:38:57,749 - INFO - Loaded 0 images for Student_9
+2025-09-13 16:38:57,749 - INFO - Collected 20 face images for training
+2025-09-13 16:38:57,749 - INFO - Starting face recognizer training...
+2025-09-13 16:38:57,757 - INFO - Face recognizer training completed
+2025-09-13 16:38:57,785 - INFO - Model saved to data/models/face_recognizer.yml
+2025-09-13 16:38:57,785 - INFO - Student mapping saved to data/models/student_id_map.json
+2025-09-13 16:38:57,785 - INFO - Training process completed successfully

@@ -1,0 +1,113 @@
+/* static/css/style.css */
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+/* Navigation */
+nav {
+  margin: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #3498db;
+}
+
+/* Dashboard table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+table th {
+  background: #3498db;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Alerts */
+.alert-box {
+  background: #ffe4e1;
+  border: 1px solid #ff6b6b;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  color: #b30000;
+  font-weight: bold;
+}
+
+/* Buttons */
+button,
+.btn {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover,
+.btn:hover {
+  background: #2c80b4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}

@@ -1,32 +1,15 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Attendance Dashboard</title>
-  </head>
-  <body>
-    <h1>Attendance Records</h1>
-    <a href="/add_student">➕ Add New Student</a>
-    <table border="1">
-      <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Roll No</th>
-        <th>Date</th>
-        <th>Time</th>
-        <th>Status</th>
-        <th>Session</th>
-      </tr>
-      {% for r in records %}
-      <tr>
-        <td>{{ r[0] }}</td>
-        <td>{{ r[1] }}</td>
-        <td>{{ r[2] }}</td>
-        <td>{{ r[3] }}</td>
-        <td>{{ r[4] }}</td>
-        <td>{{ r[5] }}</td>
-        <td>{{ r[6] }}</td>
-      </tr>
-      {% endfor %}
-    </table>
-  </body>
-</html>
+{% extends "base.html" %} {% block content %}
+<h2>Welcome to the Attendance System</h2>
+<p>Select an option:</p>
+<div class="list-group">
+  <a href="/dashboard" class="list-group-item list-group-item-action"
+    >View Dashboard</a
+  >
+  <a href="/alerts" class="list-group-item list-group-item-action"
+    >Check Alerts</a
+  >
+  <a href="/download" class="list-group-item list-group-item-action">
+    Download Attendance CSV</a
+  >
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block content %}
+<h2>⚠️ Alerts</h2>
+<p>These faces need instructor verification:</p>
+<ul class="list-group">
+  {% for alert in alerts %}
+  <li class="list-group-item">
+    <img
+      src="{{ url_for('static', filename='images/' ~ alert.image) }}"
+      width="100"
+    />
+    <strong>{{ alert.name }}</strong> → {{ alert.reason }}
+    <a href="/approve/{{ alert.id }}" class="btn btn-success btn-sm">Approve</a>
+    <a href="/reject/{{ alert.id }}" class="btn btn-danger btn-sm">Reject</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

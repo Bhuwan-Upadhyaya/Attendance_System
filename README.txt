@@ -7,22 +7,27 @@ attendance_system/
 │
 ├── backend/
 │   ├── __init__.py
-|.  |__ capture_image.py          # this capture the samples images for 20 students in the class
+│   ├── capture_image.py          # Capture sample images for 20 students
 │   ├── database.py               # SQLite connection and attendance tables
 │   ├── models.py                 # ORM models for students, attendance, etc.
 │   ├── face_recognition.py       # OpenCV Haar cascade logic + real-time capture
 │   ├── utils.py                  # Helper functions (time, validation, alerts)
 │   ├── config.py                 # Configs: paths, thresholds, camera index, etc.
-│   └── train_faces.py            # Script to train recognizer (similar to your existing one)
+│   └── train_faces.py            # Train recognizer and save model
 │
 ├── frontend/
-│   ├── templates/                # HTML templates (using Flask)
-│   ├── static/
+│   ├── templates/                # HTML templates for Flask
+│   │   ├── index.html            # Home / navigation page
+│   │   ├── dashboard.html        # Real-time attendance + download CSV
+│   │   └── alerts.html           # List of unverified faces
+│   │
+│   ├── static/                   # CSS, JS, Images
 │   │   ├── css/
 │   │   ├── js/
 │   │   └── images/
-│   ├── app.py                    # Flask app for attendance monitoring
-│   └── dashboard.py              # Routes and logic for dashboard
+│   │
+│   ├── app.py                    # Flask app entry point
+│   └── dashboard.py              # (Optional) Separate routes/logic for dashboard
 │
 ├── data/
 │   ├── faces/train/              # Training images per student
@@ -30,13 +35,15 @@ attendance_system/
 │   │   ├── Student_2/
 │   │   └── ...
 │   ├── faces/test/               # Optional test images
-│   └── models/                   # Saved recognizer models (.yml)
+│   └── models/                   # Saved recognizer models (.yml + json)
 │
 ├── logs/
-│   └── attendance_logs.txt       # Optional logs for attendance events
+│   ├── attendance_logs.txt       # Optional logs for events
+│   └── attendance_exports/       # Exported CSV files (timestamped)
 │
-├── requirements.txt              # Python dependencies (opencv, flask, sqlite3, etc.)
-└── README.txt
+├── requirements.txt              # Python dependencies (opencv, flask, sqlite3, pandas, etc.)
+└── README.txt                     # Project overview + setup instructions
+
 
 
 At this point i have decided to work on the project by working on the following logics::
