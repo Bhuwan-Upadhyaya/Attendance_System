@@ -457,3 +457,213 @@
 2025-09-13 16:38:57,785 - INFO - Model saved to data/models/face_recognizer.yml
 2025-09-13 16:38:57,785 - INFO - Student mapping saved to data/models/student_id_map.json
 2025-09-13 16:38:57,785 - INFO - Training process completed successfully
+2025-09-13 17:05:58,977 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-13 17:05:58,977 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 17:05:58,978 - INFO -  * Restarting with stat
+2025-09-13 17:05:59,177 - WARNING -  * Debugger is active!
+2025-09-13 17:05:59,182 - INFO -  * Debugger PIN: 977-442-181
+2025-09-13 17:06:02,147 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:06:02,172 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:06:02,172 - INFO - Starting face recognition for Morning session
+2025-09-13 17:06:02,242 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:06:02,266 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:06:02,266 - INFO - Starting face recognition for Morning session
+2025-09-13 17:06:03,515 - INFO - Camera opened successfully
+2025-09-13 17:06:03,530 - INFO - Camera opened successfully
+2025-09-13 17:06:04,187 - INFO - 127.0.0.1 - - [13/Sep/2025 17:06:04] "GET / HTTP/1.1" 200 -
+2025-09-13 17:06:04,298 - INFO - 127.0.0.1 - - [13/Sep/2025 17:06:04] "GET / HTTP/1.1" 200 -
+2025-09-13 17:06:04,521 - WARNING - Failed to read frame from camera
+2025-09-13 17:06:04,533 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:06:04,538 - WARNING - Failed to read frame from camera
+2025-09-13 17:06:04,551 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:07:39,994 - INFO - 127.0.0.1 - - [13/Sep/2025 17:07:39] "GET / HTTP/1.1" 200 -
+2025-09-13 17:08:00,910 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-13 17:08:00,910 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 17:08:00,910 - INFO -  * Restarting with stat
+2025-09-13 17:08:01,109 - WARNING -  * Debugger is active!
+2025-09-13 17:08:01,113 - INFO -  * Debugger PIN: 977-442-181
+2025-09-13 17:08:04,049 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:08:04,075 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:08:04,075 - INFO - Starting face recognition for Morning session
+2025-09-13 17:08:04,174 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:08:04,197 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:08:04,197 - INFO - Starting face recognition for Morning session
+2025-09-13 17:08:05,258 - INFO - Camera opened successfully
+2025-09-13 17:08:05,364 - INFO - Camera opened successfully
+2025-09-13 17:08:06,006 - INFO - 127.0.0.1 - - [13/Sep/2025 17:08:06] "GET / HTTP/1.1" 200 -
+2025-09-13 17:08:06,247 - INFO - 127.0.0.1 - - [13/Sep/2025 17:08:06] "GET / HTTP/1.1" 200 -
+2025-09-13 17:08:19,693 - WARNING - Failed to read frame from camera
+2025-09-13 17:08:19,693 - WARNING - Failed to read frame from camera
+2025-09-13 17:08:19,711 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:08:19,711 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:08:51,222 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-13 17:08:51,222 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 17:08:51,222 - INFO -  * Restarting with stat
+2025-09-13 17:08:51,414 - WARNING -  * Debugger is active!
+2025-09-13 17:08:51,418 - INFO -  * Debugger PIN: 977-442-181
+2025-09-13 17:08:54,301 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:08:54,323 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:08:54,323 - INFO - Starting face recognition for Morning session
+2025-09-13 17:08:54,475 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:08:54,497 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:08:54,497 - INFO - Starting face recognition for Morning session
+2025-09-13 17:08:55,056 - INFO - Camera opened successfully
+2025-09-13 17:08:55,152 - INFO - Camera opened successfully
+2025-09-13 17:08:56,427 - INFO - 127.0.0.1 - - [13/Sep/2025 17:08:56] "GET / HTTP/1.1" 200 -
+2025-09-13 17:08:56,562 - INFO - 127.0.0.1 - - [13/Sep/2025 17:08:56] "GET / HTTP/1.1" 200 -
+2025-09-13 17:09:02,839 - INFO - 127.0.0.1 - - [13/Sep/2025 17:09:02] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-09-13 17:09:02,881 - INFO - 127.0.0.1 - - [13/Sep/2025 17:09:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-13 17:09:02,881 - INFO - 127.0.0.1 - - [13/Sep/2025 17:09:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-13 17:09:02,896 - INFO - 127.0.0.1 - - [13/Sep/2025 17:09:02] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=yRIgI75K2pH8hTyc17qs HTTP/1.1" 200 -
+2025-09-13 17:09:09,964 - INFO - 127.0.0.1 - - [13/Sep/2025 17:09:09] "GET /alerts HTTP/1.1" 200 -
+2025-09-13 17:09:22,409 - INFO - 127.0.0.1 - - [13/Sep/2025 17:09:22] "GET /download_csv HTTP/1.1" 200 -
+2025-09-13 17:10:08,400 - INFO - Face recognition stopped by user
+2025-09-13 17:10:08,454 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:10:11,343 - INFO - Face recognition stopped by user
+2025-09-13 17:10:11,398 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:10:38,960 - INFO - 127.0.0.1 - - [13/Sep/2025 17:10:38] "GET /alerts HTTP/1.1" 200 -
+2025-09-13 17:10:43,351 - INFO - 127.0.0.1 - - [13/Sep/2025 17:10:43] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-09-13 17:10:43,364 - INFO - 127.0.0.1 - - [13/Sep/2025 17:10:43] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-13 17:10:43,365 - INFO - 127.0.0.1 - - [13/Sep/2025 17:10:43] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-13 17:10:43,368 - INFO - 127.0.0.1 - - [13/Sep/2025 17:10:43] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=yRIgI75K2pH8hTyc17qs HTTP/1.1[0m" 304 -
+2025-09-13 17:41:46,394 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-13 17:41:46,394 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 17:41:46,394 - INFO -  * Restarting with stat
+2025-09-13 17:41:46,589 - WARNING -  * Debugger is active!
+2025-09-13 17:41:46,594 - INFO -  * Debugger PIN: 977-442-181
+2025-09-13 17:41:49,541 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:41:49,571 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:41:49,572 - INFO - Starting face recognition for Morning session
+2025-09-13 17:41:49,661 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:41:49,684 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:41:49,684 - INFO - Starting face recognition for Morning session
+2025-09-13 17:41:50,858 - INFO - Camera opened successfully
+2025-09-13 17:41:50,871 - INFO - Camera opened successfully
+2025-09-13 17:41:51,617 - INFO - 127.0.0.1 - - [13/Sep/2025 17:41:51] "GET / HTTP/1.1" 200 -
+2025-09-13 17:41:51,785 - INFO - 127.0.0.1 - - [13/Sep/2025 17:41:51] "GET / HTTP/1.1" 200 -
+2025-09-13 17:42:02,279 - WARNING - Failed to read frame from camera
+2025-09-13 17:42:02,281 - WARNING - Failed to read frame from camera
+2025-09-13 17:42:02,297 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:42:02,297 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:44:13,055 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-13 17:44:13,055 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 17:44:13,056 - INFO -  * Restarting with stat
+2025-09-13 17:44:13,248 - WARNING -  * Debugger is active!
+2025-09-13 17:44:13,252 - INFO -  * Debugger PIN: 977-442-181
+2025-09-13 17:44:16,196 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:44:16,220 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:44:16,220 - INFO - Starting face recognition for Morning session
+2025-09-13 17:44:16,312 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:44:16,334 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:44:16,334 - INFO - Starting face recognition for Morning session
+2025-09-13 17:44:16,966 - INFO - Camera opened successfully
+2025-09-13 17:44:16,966 - INFO - Camera opened successfully
+2025-09-13 17:44:18,271 - INFO - 127.0.0.1 - - [13/Sep/2025 17:44:18] "GET / HTTP/1.1" 200 -
+2025-09-13 17:44:18,415 - INFO - 127.0.0.1 - - [13/Sep/2025 17:44:18] "GET / HTTP/1.1" 200 -
+2025-09-13 17:44:26,232 - INFO - 127.0.0.1 - - [13/Sep/2025 17:44:26] "GET /dashboard HTTP/1.1" 200 -
+2025-09-13 17:44:41,326 - INFO - 127.0.0.1 - - [13/Sep/2025 17:44:41] "GET /alerts HTTP/1.1" 200 -
+2025-09-13 17:44:46,004 - INFO - 127.0.0.1 - - [13/Sep/2025 17:44:46] "GET /download_csv HTTP/1.1" 200 -
+2025-09-13 17:45:11,529 - INFO - Face recognition stopped by user
+2025-09-13 17:45:11,578 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:45:15,625 - INFO - Face recognition stopped by user
+2025-09-13 17:45:15,679 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:45:24,787 - INFO - 127.0.0.1 - - [13/Sep/2025 17:45:24] "GET /dashboard HTTP/1.1" 200 -
+2025-09-13 17:45:28,566 - INFO - 127.0.0.1 - - [13/Sep/2025 17:45:28] "GET /dashboard HTTP/1.1" 200 -
+2025-09-13 17:45:30,116 - INFO - 127.0.0.1 - - [13/Sep/2025 17:45:30] "GET /add_student HTTP/1.1" 200 -
+2025-09-13 17:45:33,857 - INFO - 127.0.0.1 - - [13/Sep/2025 17:45:33] "GET /alerts HTTP/1.1" 200 -
+2025-09-13 17:45:35,195 - INFO - 127.0.0.1 - - [13/Sep/2025 17:45:35] "GET /download_csv HTTP/1.1" 200 -
+2025-09-13 17:47:17,842 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-13 17:47:17,842 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 17:47:17,842 - INFO -  * Restarting with stat
+2025-09-13 17:47:18,035 - WARNING -  * Debugger is active!
+2025-09-13 17:47:18,040 - INFO -  * Debugger PIN: 977-442-181
+2025-09-13 17:47:20,931 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:47:20,952 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:47:20,952 - INFO - Starting face recognition for Morning session
+2025-09-13 17:47:21,096 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:47:21,118 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:47:21,118 - INFO - Starting face recognition for Morning session
+2025-09-13 17:47:21,634 - INFO - Camera opened successfully
+2025-09-13 17:47:21,636 - INFO - Camera opened successfully
+2025-09-13 17:47:23,087 - INFO - 127.0.0.1 - - [13/Sep/2025 17:47:23] "GET / HTTP/1.1" 200 -
+2025-09-13 17:47:23,237 - INFO - 127.0.0.1 - - [13/Sep/2025 17:47:23] "GET / HTTP/1.1" 200 -
+2025-09-13 17:47:38,576 - INFO - 127.0.0.1 - - [13/Sep/2025 17:47:38] "GET /dashboard HTTP/1.1" 200 -
+2025-09-13 17:47:49,908 - INFO - 127.0.0.1 - - [13/Sep/2025 17:47:49] "GET /dashboard HTTP/1.1" 200 -
+2025-09-13 17:47:52,710 - INFO - 127.0.0.1 - - [13/Sep/2025 17:47:52] "GET /dashboard HTTP/1.1" 200 -
+2025-09-13 17:47:53,567 - INFO - 127.0.0.1 - - [13/Sep/2025 17:47:53] "GET /dashboard HTTP/1.1" 200 -
+2025-09-13 17:47:55,532 - INFO - 127.0.0.1 - - [13/Sep/2025 17:47:55] "GET /dashboard HTTP/1.1" 200 -
+2025-09-13 17:47:56,386 - INFO - 127.0.0.1 - - [13/Sep/2025 17:47:56] "GET /add_student HTTP/1.1" 200 -
+2025-09-13 17:48:07,240 - INFO - Student Bhuwan Upadhyaya (roll_no: 1) already exists with ID 1
+2025-09-13 17:48:07,240 - INFO - 127.0.0.1 - - [13/Sep/2025 17:48:07] "POST /add_student HTTP/1.1" 200 -
+2025-09-13 17:48:09,539 - INFO - 127.0.0.1 - - [13/Sep/2025 17:48:09] "GET /dashboard HTTP/1.1" 200 -
+2025-09-13 17:48:17,576 - INFO - Face recognition stopped by user
+2025-09-13 17:48:17,623 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:48:19,359 - INFO - Face recognition stopped by user
+2025-09-13 17:48:19,404 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 17:54:12,719 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-13 17:54:12,719 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 17:54:12,719 - INFO -  * Restarting with stat
+2025-09-13 17:54:12,913 - WARNING -  * Debugger is active!
+2025-09-13 17:54:12,917 - INFO -  * Debugger PIN: 977-442-181
+2025-09-13 17:54:15,866 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:54:15,889 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:54:15,889 - INFO - Starting face recognition for Morning session
+2025-09-13 17:54:15,978 - INFO - Loaded student mapping: 20 students
+2025-09-13 17:54:15,999 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 17:54:15,999 - INFO - Starting face recognition for Morning session
+2025-09-13 17:54:16,661 - INFO - Camera opened successfully
+2025-09-13 17:54:16,661 - INFO - Camera opened successfully
+2025-09-13 17:54:17,872 - INFO - 127.0.0.1 - - [13/Sep/2025 17:54:17] "GET / HTTP/1.1" 200 -
+2025-09-13 17:54:18,018 - INFO - 127.0.0.1 - - [13/Sep/2025 17:54:18] "GET / HTTP/1.1" 200 -
+2025-09-13 18:00:11,080 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-13 18:00:11,080 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 18:00:11,081 - INFO -  * Restarting with stat
+2025-09-13 18:00:11,276 - WARNING -  * Debugger is active!
+2025-09-13 18:00:11,281 - INFO -  * Debugger PIN: 977-442-181
+2025-09-13 18:00:14,162 - INFO - Loaded student mapping: 20 students
+2025-09-13 18:00:14,184 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 18:00:14,184 - INFO - Starting face recognition for Morning session
+2025-09-13 18:00:14,338 - INFO - Loaded student mapping: 20 students
+2025-09-13 18:00:14,360 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 18:00:14,360 - INFO - Starting face recognition for Morning session
+2025-09-13 18:00:14,867 - INFO - Camera opened successfully
+2025-09-13 18:00:14,866 - INFO - Camera opened successfully
+2025-09-13 18:00:16,274 - INFO - 127.0.0.1 - - [13/Sep/2025 18:00:16] "GET / HTTP/1.1" 200 -
+2025-09-13 18:00:16,420 - INFO - 127.0.0.1 - - [13/Sep/2025 18:00:16] "GET / HTTP/1.1" 200 -
+2025-09-13 18:00:53,337 - INFO - Face recognition stopped by user
+2025-09-13 18:00:53,385 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 18:00:54,855 - INFO - Face recognition stopped by user
+2025-09-13 18:00:54,894 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-13 18:03:25,026 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-13 18:03:25,027 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 18:03:25,027 - INFO -  * Restarting with stat
+2025-09-13 18:03:25,227 - WARNING -  * Debugger is active!
+2025-09-13 18:03:25,231 - INFO -  * Debugger PIN: 977-442-181
+2025-09-13 18:03:28,110 - INFO - Loaded student mapping: 20 students
+2025-09-13 18:03:28,132 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 18:03:28,132 - INFO - Starting face recognition for Morning session
+2025-09-13 18:03:28,291 - INFO - Loaded student mapping: 20 students
+2025-09-13 18:03:28,314 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 18:03:28,314 - INFO - Starting face recognition for Morning session
+2025-09-13 18:03:28,822 - INFO - Camera opened successfully
+2025-09-13 18:03:28,824 - INFO - Camera opened successfully
+2025-09-13 18:03:30,256 - INFO - 127.0.0.1 - - [13/Sep/2025 18:03:30] "GET / HTTP/1.1" 200 -
+2025-09-13 18:03:30,391 - INFO - 127.0.0.1 - - [13/Sep/2025 18:03:30] "GET / HTTP/1.1" 200 -
+2025-09-13 18:05:32,377 - INFO -  * Detected change in '/Users/pirte/Desktop/attendance_system/frontend/app.py', reloading
+2025-09-13 18:05:32,434 - INFO -  * Restarting with stat
+2025-09-13 18:05:32,885 - WARNING -  * Debugger is active!
+2025-09-13 18:05:32,890 - INFO -  * Debugger PIN: 977-442-181
+2025-09-13 18:05:35,963 - INFO - Loaded student mapping: 20 students
+2025-09-13 18:05:35,987 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-13 18:05:35,987 - INFO - Starting face recognition for Morning session
+2025-09-13 18:05:36,318 - INFO - Camera opened successfully
+2025-09-13 18:05:38,012 - INFO - 127.0.0.1 - - [13/Sep/2025 18:05:38] "GET / HTTP/1.1" 200 -

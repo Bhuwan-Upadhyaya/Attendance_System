@@ -19,6 +19,30 @@ from backend.config import (
     FACE_SIZE_WIDTH, FACE_SIZE_HEIGHT, MODEL_PATH, STUDENT_MAP_PATH
 )
 
+def mark_attendance_new(student_id, student_name, status="Present", session="Morning"):
+    """Insert an attendance record with new database structure."""
+    try:
+        conn = get_connection()
+        cursor = conn.cursor()
+        
+        now = datetime.now()
+        timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
+        
+        cursor.execute("""
+            INSERT INTO attendance (student_id, student_name, status, timestamp, session)
+            VALUES (?, ?, ?, ?, ?)
+        """, (student_id, student_name, status, timestamp, session))
+        
+        conn.commit()
+        conn.close()
+        
+        logging.info(f"Attendance marked: {student_name} (ID: {student_id}), Status: {status}, Session: {session}, Time: {timestamp}")
+        print(f" {student_name} marked present at {timestamp}")
+        
+    except Exception as e:
+        logging.error(f"Failed to mark attendance for {student_name}: {str(e)}")
+        raise
+
 # Setup logging
 os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
 logging.basicConfig(
@@ -53,14 +77,14 @@ else:
     print(" No trained model found! Run train_faces.py first.")
     exit()
 
-def get_student_id_from_roll(roll_no):
-    """Fetch student_id from DB using roll_no."""
+def get_student_info_from_roll(roll_no):
+    """Fetch student info from DB using roll_no."""
     conn = get_connection()
     cursor = conn.cursor()
-    cursor.execute("SELECT id FROM students WHERE roll_no = ?", (roll_no,))
+    cursor.execute("SELECT id, name FROM students WHERE roll_no = ?", (roll_no,))
     result = cursor.fetchone()
     conn.close()
-    return result[0] if result else None
+    return result if result else None
 
 def start_recognition(session="Morning"):
     """Start webcam and perform real-time recognition."""
@@ -93,19 +117,20 @@ def start_recognition(session="Morning"):
 
             if confidence < CONFIDENCE_THRESHOLD:
                 # Use proper mapping from training
-                student_name = label_to_name.get(label, f"Unknown_Label_{label}")
-                student_id = get_student_id_from_roll(student_name)
+                student_roll = label_to_name.get(label, f"Unknown_Label_{label}")
+                student_info = get_student_info_from_roll(student_roll)
 
-                if student_id:
+                if student_info:
+                    student_id, student_name = student_info
                     # Check if already recognized this session
-                    if student_name not in recognized_students:
-                        mark_attendance(student_id, status="Present", session=session)
-                        recognized_students.add(student_name)
+                    if student_roll not in recognized_students:
+                        mark_attendance_new(student_id, student_name, status="Present", session=session)
+                        recognized_students.add(student_roll)
                         logging.info(f"Student {student_name} (ID: {student_id}) recognized with confidence {confidence:.1f}")
                     else:
                         logging.debug(f"Student {student_name} already recognized this session")
                 else:
-                    logging.warning(f"Student {student_name} not found in database")
+                    logging.warning(f"Student {student_roll} not found in database")
 
                 # Draw rectangle + label
                 cv2.putText(frame, student_name, (x, y-10),

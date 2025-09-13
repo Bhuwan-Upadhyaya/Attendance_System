@@ -1,8 +1,8 @@
 {% extends "base.html" %} {% block content %}
-<h2>📊 Attendance Dashboard</h2>
+<h2>Attendance Dashboard</h2>
 
 <!-- Download button -->
-<a href="/download_csv" class="btn btn-primary mb-3">⬇️ Download CSV</a>
+<a href="/download_csv" class="btn btn-primary mb-3"> Download CSV</a>
 
 <table class="table table-striped">
   <thead>
@@ -13,7 +13,7 @@
     </tr>
   </thead>
   <tbody>
-    {% for record in attendance %}
+    {% for record in records %}
     <tr>
       <td>{{ record.student_name }}</td>
       <td>{{ record.status }}</td>
