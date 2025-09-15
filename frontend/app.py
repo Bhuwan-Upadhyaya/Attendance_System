@@ -169,14 +169,109 @@ def alerts():
     conn = sqlite3.connect(DB_PATH)
     df = pd.read_sql_query(
         """
-        SELECT id, image_path, detected_time
+        SELECT id, image_path, detected_time, resolved
         FROM unverified_faces
         WHERE resolved = 0
+        ORDER BY detected_time DESC
         """,
         conn
     )
     conn.close()
     return render_template("alerts.html", alerts=df.to_dict(orient="records"))
+
+# ---------- Approve Unknown Face ----------
+@app.route("/approve/<int:alert_id>", methods=["POST"])
+def approve_face(alert_id):
+    if request.method == "POST":
+        student_name = request.form.get("student_name")
+        roll_no = request.form.get("roll_no")
+        
+        if student_name and roll_no:
+            try:
+                conn = sqlite3.connect(DB_PATH)
+                cursor = conn.cursor()
+                
+                # Add student to database
+                cursor.execute("""
+                    INSERT INTO students (name, roll_no)
+                    VALUES (?, ?)
+                """, (student_name, roll_no))
+                
+                student_id = cursor.lastrowid
+                
+                # Mark attendance
+                now = datetime.now()
+                timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
+                cursor.execute("""
+                    INSERT INTO attendance (student_id, student_name, status, timestamp, session)
+                    VALUES (?, ?, ?, ?, ?)
+                """, (student_id, student_name, "Present", timestamp, "Morning"))
+                
+                # Mark alert as resolved
+                cursor.execute("""
+                    UPDATE unverified_faces 
+                    SET resolved = 1 
+                    WHERE id = ?
+                """, (alert_id,))
+                
+                conn.commit()
+                conn.close()
+                
+                return f"✅ Student {student_name} approved and marked present! <a href='/alerts'>Back to Alerts</a>"
+                
+            except Exception as e:
+                return f"❌ Error approving student: {str(e)}"
+        
+        return "❌ Please provide student name and roll number"
+
+# ---------- Reject Unknown Face (Mark as Threat) ----------
+@app.route("/reject/<int:alert_id>", methods=["POST"])
+def reject_face(alert_id):
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        
+        # Mark alert as resolved (threat)
+        cursor.execute("""
+            UPDATE unverified_faces 
+            SET resolved = 2 
+            WHERE id = ?
+        """, (alert_id,))
+        
+        conn.commit()
+        conn.close()
+        
+        return "⚠️ Face marked as threat! Security has been notified. <a href='/alerts'>Back to Alerts</a>"
+        
+    except Exception as e:
+        return f"❌ Error rejecting face: {str(e)}"
+
+# ---------- Get Recent Attendance (for real-time updates) ----------
+@app.route("/api/recent_attendance")
+def recent_attendance():
+    conn = sqlite3.connect(DB_PATH)
+    df = pd.read_sql_query(
+        """
+        SELECT student_name, status, timestamp
+        FROM attendance
+        WHERE date(timestamp) = date('now')
+        ORDER BY timestamp DESC
+        LIMIT 10
+        """,
+        conn
+    )
+    conn.close()
+    return df.to_json(orient="records")
+
+# ---------- Get Alert Count ----------
+@app.route("/api/alert_count")
+def alert_count():
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    cursor.execute("SELECT COUNT(*) FROM unverified_faces WHERE resolved = 0")
+    count = cursor.fetchone()[0]
+    conn.close()
+    return {"count": count}
 
 
 # ---------- Add Student ----------

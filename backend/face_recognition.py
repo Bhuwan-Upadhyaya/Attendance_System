@@ -1,9 +1,11 @@
 import os
 import sys
+import time
 import cv2
 import numpy as np
 import logging
 import json
+import base64
 from datetime import datetime
 
 # Ensure project root for backend-relative imports when run directly
@@ -37,11 +39,51 @@ def mark_attendance_new(student_id, student_name, status="Present", session="Mor
         conn.close()
         
         logging.info(f"Attendance marked: {student_name} (ID: {student_id}), Status: {status}, Session: {session}, Time: {timestamp}")
-        print(f" {student_name} marked present at {timestamp}")
+        print(f"✅ {student_name} marked present at {timestamp}")
         
     except Exception as e:
         logging.error(f"Failed to mark attendance for {student_name}: {str(e)}")
         raise
+
+def save_unknown_face(frame, x, y, w, h, confidence):
+    """Save unknown face to alerts table."""
+    try:
+        # Extract face region
+        face_img = frame[y:y+h, x:x+w]
+        
+        # Create filename with timestamp
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"unknown_face_{timestamp}.jpg"
+        
+        # Save image to static folder
+        static_dir = os.path.join(PROJECT_ROOT, "frontend", "static", "unknown_faces")
+        os.makedirs(static_dir, exist_ok=True)
+        filepath = os.path.join(static_dir, filename)
+        cv2.imwrite(filepath, face_img)
+        
+        # Save to database
+        conn = get_connection()
+        cursor = conn.cursor()
+        
+        now = datetime.now()
+        detected_time = now.strftime("%Y-%m-%d %H:%M:%S")
+        
+        cursor.execute("""
+            INSERT INTO unverified_faces (image_path, detected_time, resolved)
+            VALUES (?, ?, 0)
+        """, (filename, detected_time))
+        
+        conn.commit()
+        conn.close()
+        
+        logging.warning(f"Unknown face detected and saved: {filename} (confidence: {confidence:.1f})")
+        print(f"⚠️ Unknown face detected! Saved as {filename}")
+        
+        return filename
+        
+    except Exception as e:
+        logging.error(f"Failed to save unknown face: {str(e)}")
+        return None
 
 # Setup logging
 os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
@@ -97,6 +139,7 @@ def start_recognition(session="Morning"):
     
     logging.info("Camera opened successfully")
     recognized_students = set()  # Track already recognized students this session
+    unknown_face_cooldown = {}  # Track when unknown faces were last saved
 
     while True:
         ret, frame = cap.read()
@@ -129,17 +172,29 @@ def start_recognition(session="Morning"):
                         logging.info(f"Student {student_name} (ID: {student_id}) recognized with confidence {confidence:.1f}")
                     else:
                         logging.debug(f"Student {student_name} already recognized this session")
+
+                    # Draw rectangle + label for recognized student
+                    cv2.putText(frame, student_name, (x, y-10),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
+                    cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
                 else:
                     logging.warning(f"Student {student_roll} not found in database")
-
-                # Draw rectangle + label
-                cv2.putText(frame, student_name, (x, y-10),
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
-                cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
-            else:
-                logging.debug(f"Unknown face detected with confidence {confidence:.1f}")
-                cv2.putText(frame, "Unknown", (x, y-10),
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
+                    # Treat as unknown face
+                    confidence = 100  # Force unknown face handling
+                    
+            if confidence >= CONFIDENCE_THRESHOLD:
+                # Unknown face detected
+                face_key = f"{x}_{y}_{w}_{h}"
+                current_time = time.time()
+                
+                # Only save unknown face every 5 seconds to avoid spam
+                if face_key not in unknown_face_cooldown or current_time - unknown_face_cooldown[face_key] > 5:
+                    save_unknown_face(frame, x, y, w, h, confidence)
+                    unknown_face_cooldown[face_key] = current_time
+                
+                # Draw rectangle + label for unknown face
+                cv2.putText(frame, "Unknown - Check Alerts", (x, y-10),
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2)
                 cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 2)
 
         cv2.imshow("Face Recognition Attendance", frame)

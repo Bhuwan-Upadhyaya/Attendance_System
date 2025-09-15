@@ -1,25 +1,94 @@
 {% extends "base.html" %} {% block content %}
-<h2>Attendance Dashboard</h2>
+<h2>📊 Live Attendance Dashboard</h2>
 
-<!-- Download button -->
-<a href="/download_csv" class="btn btn-primary mb-3"> Download CSV</a>
+<div class="row mb-3">
+  <div class="col-md-6">
+    <a href="/download_csv" class="btn btn-primary">⬇️ Download CSV</a>
+    <a href="/alerts" class="btn btn-warning" id="alertsBtn">🚨 Alerts (<span id="alertCount">0</span>)</a>
+  </div>
+  <div class="col-md-6 text-end">
+    <small class="text-muted">Last updated: <span id="lastUpdate">Loading...</span></small>
+  </div>
+</div>
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Student</th>
-      <th>Status</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for record in records %}
-    <tr>
-      <td>{{ record.student_name }}</td>
-      <td>{{ record.status }}</td>
-      <td>{{ record.timestamp }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<div class="table-responsive">
+  <table class="table table-striped" id="attendanceTable">
+    <thead class="table-dark">
+      <tr>
+        <th>Student Name</th>
+        <th>Status</th>
+        <th>Time</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="attendanceBody">
+      {% for record in records %}
+      <tr>
+        <td><strong>{{ record.student_name }}</strong></td>
+        <td><span class="badge bg-success">{{ record.status }}</span></td>
+        <td>{{ record.timestamp }}</td>
+        <td><small class="text-muted">Auto-detected</small></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% if not records %}
+<div class="alert alert-info">
+  <h4>📋 No Attendance Records Today</h4>
+  <p>Students will appear here automatically when they are recognized by the camera.</p>
+</div>
+{% endif %}
+
+<script>
+// Real-time updates
+function updateDashboard() {
+  fetch('/api/recent_attendance')
+    .then(response => response.json())
+    .then(data => {
+      const tbody = document.getElementById('attendanceBody');
+      tbody.innerHTML = '';
+      
+      data.forEach(record => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td><strong>${record.student_name}</strong></td>
+          <td><span class="badge bg-success">${record.status}</span></td>
+          <td>${record.timestamp}</td>
+          <td><small class="text-muted">Auto-detected</small></td>
+        `;
+        tbody.appendChild(row);
+      });
+      
+      document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString();
+    })
+    .catch(error => console.error('Error updating dashboard:', error));
+}
+
+function updateAlertCount() {
+  fetch('/api/alert_count')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('alertCount').textContent = data.count;
+      
+      // Change button color if there are alerts
+      const alertBtn = document.getElementById('alertsBtn');
+      if (data.count > 0) {
+        alertBtn.className = 'btn btn-danger';
+      } else {
+        alertBtn.className = 'btn btn-warning';
+      }
+    })
+    .catch(error => console.error('Error updating alert count:', error));
+}
+
+// Update every 3 seconds
+setInterval(updateDashboard, 3000);
+setInterval(updateAlertCount, 3000);
+
+// Initial update
+updateDashboard();
+updateAlertCount();
+</script>
 {% endblock %}

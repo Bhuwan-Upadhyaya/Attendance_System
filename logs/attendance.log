@@ -667,3 +667,1044 @@
 2025-09-13 18:05:35,987 - INFO - Starting face recognition for Morning session
 2025-09-13 18:05:36,318 - INFO - Camera opened successfully
 2025-09-13 18:05:38,012 - INFO - 127.0.0.1 - - [13/Sep/2025 18:05:38] "GET / HTTP/1.1" 200 -
+2025-09-14 17:45:43,630 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-14 17:45:43,630 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-14 17:45:43,631 - INFO -  * Restarting with stat
+2025-09-14 17:45:43,839 - WARNING -  * Debugger is active!
+2025-09-14 17:45:43,846 - INFO -  * Debugger PIN: 977-442-181
+2025-09-14 17:45:46,831 - INFO - Loaded student mapping: 20 students
+2025-09-14 17:45:46,855 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-14 17:45:46,856 - INFO - Starting face recognition for Morning session
+2025-09-14 17:45:46,902 - INFO - Loaded student mapping: 20 students
+2025-09-14 17:45:46,926 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-14 17:45:46,926 - INFO - Starting face recognition for Morning session
+2025-09-14 17:45:48,103 - INFO - Camera opened successfully
+2025-09-14 17:45:48,111 - INFO - Camera opened successfully
+2025-09-14 17:45:48,747 - INFO - 127.0.0.1 - - [14/Sep/2025 17:45:48] "GET / HTTP/1.1" 200 -
+2025-09-14 17:45:48,800 - INFO - 127.0.0.1 - - [14/Sep/2025 17:45:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-14 17:45:48,926 - INFO - 127.0.0.1 - - [14/Sep/2025 17:45:48] "GET / HTTP/1.1" 200 -
+2025-09-14 17:45:49,111 - WARNING - Failed to read frame from camera
+2025-09-14 17:45:49,112 - WARNING - Failed to read frame from camera
+2025-09-14 17:45:49,121 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-14 17:45:49,121 - INFO - Face recognition session ended. Recognized 0 students
+2025-09-14 17:46:05,548 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:05] "GET / HTTP/1.1" 200 -
+2025-09-14 17:46:07,534 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:07] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-09-14 17:46:07,550 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:07] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-14 17:46:07,551 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:07] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-14 17:46:07,557 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:07] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=7UuBLnrdGUsieszL7qQK HTTP/1.1" 200 -
+2025-09-14 17:46:07,572 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:07] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-14 17:46:11,827 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:11] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-09-14 17:46:11,844 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:11] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-14 17:46:11,845 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:11] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-14 17:46:11,850 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:11] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=7UuBLnrdGUsieszL7qQK HTTP/1.1[0m" 304 -
+2025-09-14 17:46:20,770 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-14 17:46:20,770 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-14 17:46:20,770 - INFO -  * Restarting with stat
+2025-09-14 17:46:20,970 - WARNING -  * Debugger is active!
+2025-09-14 17:46:20,974 - INFO -  * Debugger PIN: 977-442-181
+2025-09-14 17:46:23,914 - INFO - Loaded student mapping: 20 students
+2025-09-14 17:46:23,938 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-14 17:46:23,938 - INFO - Starting face recognition for Morning session
+2025-09-14 17:46:24,035 - INFO - Loaded student mapping: 20 students
+2025-09-14 17:46:24,059 - INFO - Loaded face recognizer model from data/models/face_recognizer.yml
+2025-09-14 17:46:24,059 - INFO - Starting face recognition for Morning session
+2025-09-14 17:46:25,111 - INFO - Camera opened successfully
+2025-09-14 17:46:25,121 - INFO - Camera opened successfully
+2025-09-14 17:46:26,086 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:26] "GET / HTTP/1.1" 200 -
+2025-09-14 17:46:26,108 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-14 17:46:26,214 - INFO - 127.0.0.1 - - [14/Sep/2025 17:46:26] "GET / HTTP/1.1" 200 -
+2025-09-14 17:46:31,232 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 86.2)
+2025-09-14 17:46:31,233 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 86.2)
+2025-09-14 17:46:31,294 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 82.3)
+2025-09-14 17:46:31,296 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 82.3)
+2025-09-14 17:46:31,360 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 81.4)
+2025-09-14 17:46:31,363 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 81.4)
+2025-09-14 17:46:31,427 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 79.8)
+2025-09-14 17:46:31,433 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 79.8)
+2025-09-14 17:46:31,497 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 72.5)
+2025-09-14 17:46:31,498 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 72.5)
+2025-09-14 17:46:31,562 - INFO - Attendance marked: Student 1 (ID: 2), Status: Present, Session: Morning, Time: 2025-09-14 17:46:31
+2025-09-14 17:46:31,562 - INFO - Student Student 1 (ID: 2) recognized with confidence 59.9
+2025-09-14 17:46:31,565 - INFO - Attendance marked: Student 1 (ID: 2), Status: Present, Session: Morning, Time: 2025-09-14 17:46:31
+2025-09-14 17:46:31,566 - INFO - Student Student 1 (ID: 2) recognized with confidence 59.9
+2025-09-14 17:46:31,829 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 61.1)
+2025-09-14 17:46:31,835 - WARNING - Unknown face detected and saved: unknown_face_20250914_174631.jpg (confidence: 61.1)
+2025-09-14 17:46:32,430 - WARNING - Unknown face detected and saved: unknown_face_20250914_174632.jpg (confidence: 60.4)
+2025-09-14 17:46:32,433 - WARNING - Unknown face detected and saved: unknown_face_20250914_174632.jpg (confidence: 60.4)
+2025-09-14 17:46:32,495 - WARNING - Unknown face detected and saved: unknown_face_20250914_174632.jpg (confidence: 61.6)
+2025-09-14 17:46:32,499 - WARNING - Unknown face detected and saved: unknown_face_20250914_174632.jpg (confidence: 61.6)
+2025-09-14 17:46:32,564 - WARNING - Unknown face detected and saved: unknown_face_20250914_174632.jpg (confidence: 60.1)
+2025-09-14 17:46:32,568 - WARNING - Unknown face detected and saved: unknown_face_20250914_174632.jpg (confidence: 60.1)
+2025-09-14 17:46:33,262 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 60.2)
+2025-09-14 17:46:33,266 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 60.2)
+2025-09-14 17:46:33,464 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 61.3)
+2025-09-14 17:46:33,466 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 61.3)
+2025-09-14 17:46:33,527 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 62.9)
+2025-09-14 17:46:33,534 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 62.9)
+2025-09-14 17:46:33,596 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 62.7)
+2025-09-14 17:46:33,603 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 62.7)
+2025-09-14 17:46:33,660 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 62.6)
+2025-09-14 17:46:33,666 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 62.6)
+2025-09-14 17:46:33,693 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 63.5)
+2025-09-14 17:46:33,727 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 62.0)
+2025-09-14 17:46:33,733 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 62.0)
+2025-09-14 17:46:33,794 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 63.8)
+2025-09-14 17:46:33,799 - WARNING - Unknown face detected and saved: unknown_face_20250914_174633.jpg (confidence: 63.8)
+2025-09-14 17:46:37,666 - WARNING - Unknown face detected and saved: unknown_face_20250914_174637.jpg (confidence: 68.1)
+2025-09-14 17:46:37,668 - WARNING - Unknown face detected and saved: unknown_face_20250914_174637.jpg (confidence: 68.1)
+2025-09-14 17:46:37,732 - WARNING - Unknown face detected and saved: unknown_face_20250914_174637.jpg (confidence: 79.5)
+2025-09-14 17:46:37,735 - WARNING - Unknown face detected and saved: unknown_face_20250914_174637.jpg (confidence: 79.5)
+2025-09-14 17:46:37,796 - WARNING - Unknown face detected and saved: unknown_face_20250914_174637.jpg (confidence: 82.5)
+2025-09-14 17:46:37,802 - WARNING - Unknown face detected and saved: unknown_face_20250914_174637.jpg (confidence: 82.5)
+2025-09-14 17:46:37,865 - WARNING - Unknown face detected and saved: unknown_face_20250914_174637.jpg (confidence: 81.4)
+2025-09-14 17:46:37,868 - WARNING - Unknown face detected and saved: unknown_face_20250914_174637.jpg (confidence: 81.4)
+2025-09-14 17:46:37,931 - WARNING - Unknown face detected and saved: unknown_face_20250914_174637.jpg (confidence: 71.6)
+2025-09-14 17:46:37,936 - WARNING - Unknown face detected and saved: unknown_face_20250914_174637.jpg (confidence: 71.6)
+2025-09-14 17:46:37,999 - WARNING - Unknown face detected and saved: unknown_face_20250914_174637.jpg (confidence: 67.4)
+2025-09-14 17:46:38,004 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 67.4)
+2025-09-14 17:46:38,131 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 67.8)
+2025-09-14 17:46:38,135 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 67.8)
+2025-09-14 17:46:38,198 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 66.1)
+2025-09-14 17:46:38,202 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 66.1)
+2025-09-14 17:46:38,266 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 69.9)
+2025-09-14 17:46:38,268 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 69.9)
+2025-09-14 17:46:38,361 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 65.6)
+2025-09-14 17:46:38,425 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 69.8)
+2025-09-14 17:46:38,434 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 69.8)
+2025-09-14 17:46:38,662 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 67.4)
+2025-09-14 17:46:38,700 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 66.4)
+2025-09-14 17:46:38,703 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 66.4)
+2025-09-14 17:46:38,838 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 67.5)
+2025-09-14 17:46:38,843 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 67.5)
+2025-09-14 17:46:38,898 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 65.9)
+2025-09-14 17:46:38,902 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 65.9)
+2025-09-14 17:46:38,962 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 67.7)
+2025-09-14 17:46:38,969 - WARNING - Unknown face detected and saved: unknown_face_20250914_174638.jpg (confidence: 67.7)
+2025-09-14 17:46:39,032 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 74.0)
+2025-09-14 17:46:39,036 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 74.0)
+2025-09-14 17:46:39,099 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 69.8)
+2025-09-14 17:46:39,104 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 69.8)
+2025-09-14 17:46:39,166 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 68.8)
+2025-09-14 17:46:39,169 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 68.8)
+2025-09-14 17:46:39,231 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 67.2)
+2025-09-14 17:46:39,239 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 67.2)
+2025-09-14 17:46:39,298 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 68.7)
+2025-09-14 17:46:39,304 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 68.7)
+2025-09-14 17:46:39,364 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 69.2)
+2025-09-14 17:46:39,368 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 69.2)
+2025-09-14 17:46:39,437 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 67.3)
+2025-09-14 17:46:39,439 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 67.3)
+2025-09-14 17:46:39,565 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 73.5)
+2025-09-14 17:46:39,569 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 73.5)
+2025-09-14 17:46:39,629 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 67.7)
+2025-09-14 17:46:39,633 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 67.7)
+2025-09-14 17:46:39,696 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 68.1)
+2025-09-14 17:46:39,700 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 68.1)
+2025-09-14 17:46:39,764 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 71.7)
+2025-09-14 17:46:39,773 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 71.7)
+2025-09-14 17:46:39,832 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 68.8)
+2025-09-14 17:46:39,837 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 68.8)
+2025-09-14 17:46:39,899 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 70.0)
+2025-09-14 17:46:39,904 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 70.0)
+2025-09-14 17:46:39,966 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 68.6)
+2025-09-14 17:46:39,970 - WARNING - Unknown face detected and saved: unknown_face_20250914_174639.jpg (confidence: 68.6)
+2025-09-14 17:46:40,033 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 68.7)
+2025-09-14 17:46:40,036 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 68.7)
+2025-09-14 17:46:40,101 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 69.0)
+2025-09-14 17:46:40,105 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 69.0)
+2025-09-14 17:46:40,166 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 69.2)
+2025-09-14 17:46:40,169 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 69.2)
+2025-09-14 17:46:40,231 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 68.8)
+2025-09-14 17:46:40,239 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 68.8)
+2025-09-14 17:46:40,299 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 68.8)
+2025-09-14 17:46:40,303 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 68.8)
+2025-09-14 17:46:40,366 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 68.0)
+2025-09-14 17:46:40,371 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 68.0)
+2025-09-14 17:46:40,433 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 68.0)
+2025-09-14 17:46:40,438 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 68.0)
+2025-09-14 17:46:40,499 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 67.5)
+2025-09-14 17:46:40,503 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 67.5)
+2025-09-14 17:46:40,566 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 70.5)
+2025-09-14 17:46:40,570 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 70.5)
+2025-09-14 17:46:40,632 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 70.7)
+2025-09-14 17:46:40,637 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 70.7)
+2025-09-14 17:46:40,699 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 70.3)
+2025-09-14 17:46:40,704 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 70.3)
+2025-09-14 17:46:40,765 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 70.9)
+2025-09-14 17:46:40,770 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 70.9)
+2025-09-14 17:46:40,829 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 70.2)
+2025-09-14 17:46:40,834 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 70.2)
+2025-09-14 17:46:40,867 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 67.6)
+2025-09-14 17:46:40,895 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 70.5)
+2025-09-14 17:46:40,937 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 67.1)
+2025-09-14 17:46:40,939 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 67.1)
+2025-09-14 17:46:40,999 - WARNING - Unknown face detected and saved: unknown_face_20250914_174640.jpg (confidence: 68.1)
+2025-09-14 17:46:41,003 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 68.1)
+2025-09-14 17:46:41,066 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 67.3)
+2025-09-14 17:46:41,070 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 67.3)
+2025-09-14 17:46:41,133 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 67.6)
+2025-09-14 17:46:41,136 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 67.6)
+2025-09-14 17:46:41,201 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 69.7)
+2025-09-14 17:46:41,205 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 69.7)
+2025-09-14 17:46:41,264 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 71.9)
+2025-09-14 17:46:41,268 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 71.9)
+2025-09-14 17:46:41,328 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 77.7)
+2025-09-14 17:46:41,331 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 77.7)
+2025-09-14 17:46:41,360 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 75.1)
+2025-09-14 17:46:41,395 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 76.2)
+2025-09-14 17:46:41,399 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 76.2)
+2025-09-14 17:46:41,459 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 75.6)
+2025-09-14 17:46:41,464 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 75.6)
+2025-09-14 17:46:41,491 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 72.5)
+2025-09-14 17:46:41,530 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 68.4)
+2025-09-14 17:46:41,533 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 68.4)
+2025-09-14 17:46:41,597 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 73.5)
+2025-09-14 17:46:41,601 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 73.5)
+2025-09-14 17:46:41,667 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 62.1)
+2025-09-14 17:46:41,669 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 62.1)
+2025-09-14 17:46:41,799 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 71.1)
+2025-09-14 17:46:41,803 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 71.1)
+2025-09-14 17:46:41,865 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 73.0)
+2025-09-14 17:46:41,870 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 73.0)
+2025-09-14 17:46:41,931 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 68.3)
+2025-09-14 17:46:41,938 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 68.3)
+2025-09-14 17:46:41,998 - WARNING - Unknown face detected and saved: unknown_face_20250914_174641.jpg (confidence: 63.4)
+2025-09-14 17:46:42,003 - WARNING - Unknown face detected and saved: unknown_face_20250914_174642.jpg (confidence: 63.4)
+2025-09-14 17:46:43,665 - WARNING - Unknown face detected and saved: unknown_face_20250914_174643.jpg (confidence: 70.0)
+2025-09-14 17:46:43,669 - WARNING - Unknown face detected and saved: unknown_face_20250914_174643.jpg (confidence: 70.0)
+2025-09-14 17:46:43,730 - WARNING - Unknown face detected and saved: unknown_face_20250914_174643.jpg (confidence: 76.0)
+2025-09-14 17:46:43,733 - WARNING - Unknown face detected and saved: unknown_face_20250914_174643.jpg (confidence: 76.0)
+2025-09-14 17:46:43,796 - WARNING - Unknown face detected and saved: unknown_face_20250914_174643.jpg (confidence: 76.8)
+2025-09-14 17:46:43,801 - WARNING - Unknown face detected and saved: unknown_face_20250914_174643.jpg (confidence: 76.8)
+2025-09-14 17:46:43,865 - WARNING - Unknown face detected and saved: unknown_face_20250914_174643.jpg (confidence: 71.2)
+2025-09-14 17:46:43,868 - WARNING - Unknown face detected and saved: unknown_face_20250914_174643.jpg (confidence: 71.2)
+2025-09-14 17:46:43,932 - WARNING - Unknown face detected and saved: unknown_face_20250914_174643.jpg (confidence: 67.4)
+2025-09-14 17:46:43,935 - WARNING - Unknown face detected and saved: unknown_face_20250914_174643.jpg (confidence: 67.4)
+2025-09-14 17:46:43,964 - WARNING - Unknown face detected and saved: unknown_face_20250914_174643.jpg (confidence: 60.4)
+2025-09-14 17:46:47,833 - WARNING - Unknown face detected and saved: unknown_face_20250914_174647.jpg (confidence: 60.3)
+2025-09-14 17:46:47,837 - WARNING - Unknown face detected and saved: unknown_face_20250914_174647.jpg (confidence: 60.3)
+2025-09-14 17:46:47,898 - WARNING - Unknown face detected and saved: unknown_face_20250914_174647.jpg (confidence: 60.4)
+2025-09-14 17:46:47,903 - WARNING - Unknown face detected and saved: unknown_face_20250914_174647.jpg (confidence: 60.4)
+2025-09-14 17:46:48,232 - WARNING - Unknown face detected and saved: unknown_face_20250914_174648.jpg (confidence: 60.0)
+2025-09-14 17:46:48,237 - WARNING - Unknown face detected and saved: unknown_face_20250914_174648.jpg (confidence: 60.0)
+2025-09-14 17:46:48,762 - WARNING - Unknown face detected and saved: unknown_face_20250914_174648.jpg (confidence: 60.2)
+2025-09-14 17:47:01,603 - WARNING - Unknown face detected and saved: unknown_face_20250914_174701.jpg (confidence: 61.0)
+2025-09-14 17:47:01,604 - WARNING - Unknown face detected and saved: unknown_face_20250914_174701.jpg (confidence: 61.0)
+2025-09-14 17:47:03,603 - WARNING - Unknown face detected and saved: unknown_face_20250914_174703.jpg (confidence: 60.3)
+2025-09-14 17:47:03,604 - WARNING - Unknown face detected and saved: unknown_face_20250914_174703.jpg (confidence: 60.3)
+2025-09-14 17:47:04,637 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:04] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-09-14 17:47:04,652 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-14 17:47:04,654 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-14 17:47:04,679 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:04] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=NTZLfypjlHZfTVmAjyq2 HTTP/1.1" 200 -
+2025-09-14 17:47:06,064 - WARNING - Unknown face detected and saved: unknown_face_20250914_174706.jpg (confidence: 60.1)
+2025-09-14 17:47:17,672 - WARNING - Unknown face detected and saved: unknown_face_20250914_174717.jpg (confidence: 60.8)
+2025-09-14 17:47:17,673 - WARNING - Unknown face detected and saved: unknown_face_20250914_174717.jpg (confidence: 60.8)
+2025-09-14 17:47:21,503 - WARNING - Unknown face detected and saved: unknown_face_20250914_174721.jpg (confidence: 60.8)
+2025-09-14 17:47:21,506 - WARNING - Unknown face detected and saved: unknown_face_20250914_174721.jpg (confidence: 60.8)
+2025-09-14 17:47:22,447 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /alerts HTTP/1.1" 200 -
+2025-09-14 17:47:22,453 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174717.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,453 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174721.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,457 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174701.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,457 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174703.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,457 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174706.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,457 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174648.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,458 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174647.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,459 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174643.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,463 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174642.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,464 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174641.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,464 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174640.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,464 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174639.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,465 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174638.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,465 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174637.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,468 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174633.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,468 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174632.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,469 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:22] "GET /static/unknown_faces/unknown_face_20250914_174631.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:22,508 - WARNING - Unknown face detected and saved: unknown_face_20250914_174722.jpg (confidence: 60.1)
+2025-09-14 17:47:22,509 - WARNING - Unknown face detected and saved: unknown_face_20250914_174722.jpg (confidence: 60.1)
+2025-09-14 17:47:22,703 - WARNING - Unknown face detected and saved: unknown_face_20250914_174722.jpg (confidence: 60.8)
+2025-09-14 17:47:22,704 - WARNING - Unknown face detected and saved: unknown_face_20250914_174722.jpg (confidence: 60.8)
+2025-09-14 17:47:23,307 - WARNING - Unknown face detected and saved: unknown_face_20250914_174723.jpg (confidence: 60.6)
+2025-09-14 17:47:23,308 - WARNING - Unknown face detected and saved: unknown_face_20250914_174723.jpg (confidence: 60.6)
+2025-09-14 17:47:24,437 - WARNING - Unknown face detected and saved: unknown_face_20250914_174724.jpg (confidence: 61.2)
+2025-09-14 17:47:24,440 - WARNING - Unknown face detected and saved: unknown_face_20250914_174724.jpg (confidence: 61.2)
+2025-09-14 17:47:25,636 - WARNING - Unknown face detected and saved: unknown_face_20250914_174725.jpg (confidence: 60.3)
+2025-09-14 17:47:25,639 - WARNING - Unknown face detected and saved: unknown_face_20250914_174725.jpg (confidence: 60.3)
+2025-09-14 17:47:26,504 - WARNING - Unknown face detected and saved: unknown_face_20250914_174726.jpg (confidence: 61.6)
+2025-09-14 17:47:26,507 - WARNING - Unknown face detected and saved: unknown_face_20250914_174726.jpg (confidence: 61.6)
+2025-09-14 17:47:29,504 - WARNING - Unknown face detected and saved: unknown_face_20250914_174729.jpg (confidence: 60.2)
+2025-09-14 17:47:29,506 - WARNING - Unknown face detected and saved: unknown_face_20250914_174729.jpg (confidence: 60.2)
+2025-09-14 17:47:30,641 - WARNING - Unknown face detected and saved: unknown_face_20250914_174730.jpg (confidence: 61.1)
+2025-09-14 17:47:30,642 - WARNING - Unknown face detected and saved: unknown_face_20250914_174730.jpg (confidence: 61.1)
+2025-09-14 17:47:32,541 - WARNING - Unknown face detected and saved: unknown_face_20250914_174732.jpg (confidence: 60.2)
+2025-09-14 17:47:32,541 - WARNING - Unknown face detected and saved: unknown_face_20250914_174732.jpg (confidence: 60.2)
+2025-09-14 17:47:32,673 - WARNING - Unknown face detected and saved: unknown_face_20250914_174732.jpg (confidence: 60.9)
+2025-09-14 17:47:32,675 - WARNING - Unknown face detected and saved: unknown_face_20250914_174732.jpg (confidence: 60.9)
+2025-09-14 17:47:33,105 - WARNING - Unknown face detected and saved: unknown_face_20250914_174733.jpg (confidence: 60.1)
+2025-09-14 17:47:33,109 - WARNING - Unknown face detected and saved: unknown_face_20250914_174733.jpg (confidence: 60.1)
+2025-09-14 17:47:33,509 - WARNING - Unknown face detected and saved: unknown_face_20250914_174733.jpg (confidence: 60.8)
+2025-09-14 17:47:33,510 - WARNING - Unknown face detected and saved: unknown_face_20250914_174733.jpg (confidence: 60.8)
+2025-09-14 17:47:33,773 - WARNING - Unknown face detected and saved: unknown_face_20250914_174733.jpg (confidence: 60.0)
+2025-09-14 17:47:33,774 - WARNING - Unknown face detected and saved: unknown_face_20250914_174733.jpg (confidence: 60.0)
+2025-09-14 17:47:33,905 - WARNING - Unknown face detected and saved: unknown_face_20250914_174733.jpg (confidence: 60.0)
+2025-09-14 17:47:33,907 - WARNING - Unknown face detected and saved: unknown_face_20250914_174733.jpg (confidence: 60.0)
+2025-09-14 17:47:34,040 - WARNING - Unknown face detected and saved: unknown_face_20250914_174734.jpg (confidence: 60.6)
+2025-09-14 17:47:34,042 - WARNING - Unknown face detected and saved: unknown_face_20250914_174734.jpg (confidence: 60.6)
+2025-09-14 17:47:34,173 - WARNING - Unknown face detected and saved: unknown_face_20250914_174734.jpg (confidence: 60.3)
+2025-09-14 17:47:34,174 - WARNING - Unknown face detected and saved: unknown_face_20250914_174734.jpg (confidence: 60.3)
+2025-09-14 17:47:34,306 - WARNING - Unknown face detected and saved: unknown_face_20250914_174734.jpg (confidence: 61.9)
+2025-09-14 17:47:34,307 - WARNING - Unknown face detected and saved: unknown_face_20250914_174734.jpg (confidence: 61.9)
+2025-09-14 17:47:34,641 - WARNING - Unknown face detected and saved: unknown_face_20250914_174734.jpg (confidence: 60.0)
+2025-09-14 17:47:34,641 - WARNING - Unknown face detected and saved: unknown_face_20250914_174734.jpg (confidence: 60.0)
+2025-09-14 17:47:34,706 - WARNING - Unknown face detected and saved: unknown_face_20250914_174734.jpg (confidence: 60.1)
+2025-09-14 17:47:34,707 - WARNING - Unknown face detected and saved: unknown_face_20250914_174734.jpg (confidence: 60.1)
+2025-09-14 17:47:35,072 - WARNING - Unknown face detected and saved: unknown_face_20250914_174735.jpg (confidence: 60.8)
+2025-09-14 17:47:35,076 - WARNING - Unknown face detected and saved: unknown_face_20250914_174735.jpg (confidence: 60.8)
+2025-09-14 17:47:35,205 - WARNING - Unknown face detected and saved: unknown_face_20250914_174735.jpg (confidence: 60.1)
+2025-09-14 17:47:35,206 - WARNING - Unknown face detected and saved: unknown_face_20250914_174735.jpg (confidence: 60.1)
+2025-09-14 17:47:35,408 - WARNING - Unknown face detected and saved: unknown_face_20250914_174735.jpg (confidence: 60.3)
+2025-09-14 17:47:35,409 - WARNING - Unknown face detected and saved: unknown_face_20250914_174735.jpg (confidence: 60.3)
+2025-09-14 17:47:35,631 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "POST /reject/179 HTTP/1.1" 200 -
+2025-09-14 17:47:35,637 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /alerts HTTP/1.1" 200 -
+2025-09-14 17:47:35,645 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /static/unknown_faces/unknown_face_20250914_174735.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:35,647 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /static/unknown_faces/unknown_face_20250914_174734.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:35,651 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /static/unknown_faces/unknown_face_20250914_174726.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:35,651 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /static/unknown_faces/unknown_face_20250914_174733.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:35,652 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /static/unknown_faces/unknown_face_20250914_174729.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:35,652 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /static/unknown_faces/unknown_face_20250914_174730.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:35,653 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /static/unknown_faces/unknown_face_20250914_174732.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:35,653 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /static/unknown_faces/unknown_face_20250914_174725.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:35,679 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /static/unknown_faces/unknown_face_20250914_174724.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:35,681 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /static/unknown_faces/unknown_face_20250914_174723.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:35,683 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "GET /static/unknown_faces/unknown_face_20250914_174722.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:35,683 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174721.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,686 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174717.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,686 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174706.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,687 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174703.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,688 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174701.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,689 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174647.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,689 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174648.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,690 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174643.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,690 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174642.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,691 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174641.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,691 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174640.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,692 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174638.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,692 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174639.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,692 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174637.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,693 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174633.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,693 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174632.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:35,693 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:35] "[36mGET /static/unknown_faces/unknown_face_20250914_174631.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:36,475 - WARNING - Unknown face detected and saved: unknown_face_20250914_174736.jpg (confidence: 61.2)
+2025-09-14 17:47:36,476 - WARNING - Unknown face detected and saved: unknown_face_20250914_174736.jpg (confidence: 61.2)
+2025-09-14 17:47:36,541 - WARNING - Unknown face detected and saved: unknown_face_20250914_174736.jpg (confidence: 60.5)
+2025-09-14 17:47:36,542 - WARNING - Unknown face detected and saved: unknown_face_20250914_174736.jpg (confidence: 60.5)
+2025-09-14 17:47:36,738 - WARNING - Unknown face detected and saved: unknown_face_20250914_174736.jpg (confidence: 60.2)
+2025-09-14 17:47:36,740 - WARNING - Unknown face detected and saved: unknown_face_20250914_174736.jpg (confidence: 60.2)
+2025-09-14 17:47:37,602 - WARNING - Unknown face detected and saved: unknown_face_20250914_174737.jpg (confidence: 60.2)
+2025-09-14 17:47:37,607 - WARNING - Unknown face detected and saved: unknown_face_20250914_174737.jpg (confidence: 60.2)
+2025-09-14 17:47:37,941 - WARNING - Unknown face detected and saved: unknown_face_20250914_174737.jpg (confidence: 60.2)
+2025-09-14 17:47:37,941 - WARNING - Unknown face detected and saved: unknown_face_20250914_174737.jpg (confidence: 60.2)
+2025-09-14 17:47:38,007 - WARNING - Unknown face detected and saved: unknown_face_20250914_174738.jpg (confidence: 60.2)
+2025-09-14 17:47:38,008 - WARNING - Unknown face detected and saved: unknown_face_20250914_174738.jpg (confidence: 60.2)
+2025-09-14 17:47:43,672 - WARNING - Unknown face detected and saved: unknown_face_20250914_174743.jpg (confidence: 60.2)
+2025-09-14 17:47:43,674 - WARNING - Unknown face detected and saved: unknown_face_20250914_174743.jpg (confidence: 60.2)
+2025-09-14 17:47:44,507 - WARNING - Unknown face detected and saved: unknown_face_20250914_174744.jpg (confidence: 60.3)
+2025-09-14 17:47:44,508 - WARNING - Unknown face detected and saved: unknown_face_20250914_174744.jpg (confidence: 60.3)
+2025-09-14 17:47:44,573 - WARNING - Unknown face detected and saved: unknown_face_20250914_174744.jpg (confidence: 60.3)
+2025-09-14 17:47:44,574 - WARNING - Unknown face detected and saved: unknown_face_20250914_174744.jpg (confidence: 60.3)
+2025-09-14 17:47:44,841 - WARNING - Unknown face detected and saved: unknown_face_20250914_174744.jpg (confidence: 60.2)
+2025-09-14 17:47:44,842 - WARNING - Unknown face detected and saved: unknown_face_20250914_174744.jpg (confidence: 60.2)
+2025-09-14 17:47:44,906 - WARNING - Unknown face detected and saved: unknown_face_20250914_174744.jpg (confidence: 60.1)
+2025-09-14 17:47:44,906 - WARNING - Unknown face detected and saved: unknown_face_20250914_174744.jpg (confidence: 60.1)
+2025-09-14 17:47:45,662 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "GET /alerts HTTP/1.1" 200 -
+2025-09-14 17:47:45,685 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "GET /static/unknown_faces/unknown_face_20250914_174744.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:45,688 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "GET /static/unknown_faces/unknown_face_20250914_174743.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:45,689 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "GET /static/unknown_faces/unknown_face_20250914_174738.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:45,691 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "GET /static/unknown_faces/unknown_face_20250914_174737.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:45,704 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174735.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,706 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "GET /static/unknown_faces/unknown_face_20250914_174736.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:45,715 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174732.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,716 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174734.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,716 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174730.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,719 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174726.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,719 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174733.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,720 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174729.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,720 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174724.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,721 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174725.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,721 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174723.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,722 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174722.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,722 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174721.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,722 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174717.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,723 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174706.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,723 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174703.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,724 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174701.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,724 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174648.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,724 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174647.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,725 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174643.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,726 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174642.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,726 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174641.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,726 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174640.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,727 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174639.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,727 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174638.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,728 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174637.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,728 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174633.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,728 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174632.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,729 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:45] "[36mGET /static/unknown_faces/unknown_face_20250914_174631.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:45,837 - WARNING - Unknown face detected and saved: unknown_face_20250914_174745.jpg (confidence: 60.2)
+2025-09-14 17:47:45,840 - WARNING - Unknown face detected and saved: unknown_face_20250914_174745.jpg (confidence: 60.2)
+2025-09-14 17:47:45,971 - WARNING - Unknown face detected and saved: unknown_face_20250914_174745.jpg (confidence: 60.3)
+2025-09-14 17:47:45,974 - WARNING - Unknown face detected and saved: unknown_face_20250914_174745.jpg (confidence: 60.3)
+2025-09-14 17:47:46,040 - WARNING - Unknown face detected and saved: unknown_face_20250914_174746.jpg (confidence: 61.0)
+2025-09-14 17:47:46,042 - WARNING - Unknown face detected and saved: unknown_face_20250914_174746.jpg (confidence: 61.0)
+2025-09-14 17:47:47,107 - WARNING - Unknown face detected and saved: unknown_face_20250914_174747.jpg (confidence: 60.9)
+2025-09-14 17:47:47,109 - WARNING - Unknown face detected and saved: unknown_face_20250914_174747.jpg (confidence: 60.9)
+2025-09-14 17:47:47,305 - WARNING - Unknown face detected and saved: unknown_face_20250914_174747.jpg (confidence: 60.6)
+2025-09-14 17:47:47,307 - WARNING - Unknown face detected and saved: unknown_face_20250914_174747.jpg (confidence: 60.6)
+2025-09-14 17:47:47,575 - WARNING - Unknown face detected and saved: unknown_face_20250914_174747.jpg (confidence: 60.6)
+2025-09-14 17:47:47,576 - WARNING - Unknown face detected and saved: unknown_face_20250914_174747.jpg (confidence: 60.6)
+2025-09-14 17:47:47,667 - WARNING - Unknown face detected and saved: unknown_face_20250914_174747.jpg (confidence: 60.5)
+2025-09-14 17:47:47,775 - WARNING - Unknown face detected and saved: unknown_face_20250914_174747.jpg (confidence: 60.3)
+2025-09-14 17:47:47,776 - WARNING - Unknown face detected and saved: unknown_face_20250914_174747.jpg (confidence: 60.3)
+2025-09-14 17:47:48,044 - WARNING - Unknown face detected and saved: unknown_face_20250914_174748.jpg (confidence: 60.6)
+2025-09-14 17:47:48,045 - WARNING - Unknown face detected and saved: unknown_face_20250914_174748.jpg (confidence: 60.6)
+2025-09-14 17:47:48,170 - WARNING - Unknown face detected and saved: unknown_face_20250914_174748.jpg (confidence: 60.1)
+2025-09-14 17:47:48,173 - WARNING - Unknown face detected and saved: unknown_face_20250914_174748.jpg (confidence: 60.1)
+2025-09-14 17:47:50,207 - WARNING - Unknown face detected and saved: unknown_face_20250914_174750.jpg (confidence: 60.0)
+2025-09-14 17:47:50,208 - WARNING - Unknown face detected and saved: unknown_face_20250914_174750.jpg (confidence: 60.0)
+2025-09-14 17:47:55,073 - WARNING - Unknown face detected and saved: unknown_face_20250914_174755.jpg (confidence: 60.2)
+2025-09-14 17:47:55,075 - WARNING - Unknown face detected and saved: unknown_face_20250914_174755.jpg (confidence: 60.2)
+2025-09-14 17:47:55,138 - WARNING - Unknown face detected and saved: unknown_face_20250914_174755.jpg (confidence: 60.4)
+2025-09-14 17:47:55,141 - WARNING - Unknown face detected and saved: unknown_face_20250914_174755.jpg (confidence: 60.4)
+2025-09-14 17:47:55,711 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "GET /alerts HTTP/1.1" 200 -
+2025-09-14 17:47:55,718 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "GET /static/unknown_faces/unknown_face_20250914_174755.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:55,720 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "GET /static/unknown_faces/unknown_face_20250914_174750.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:55,722 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "GET /static/unknown_faces/unknown_face_20250914_174746.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:55,722 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "GET /static/unknown_faces/unknown_face_20250914_174748.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:55,723 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "GET /static/unknown_faces/unknown_face_20250914_174747.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:55,723 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174744.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,723 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "GET /static/unknown_faces/unknown_face_20250914_174745.jpg HTTP/1.1" 200 -
+2025-09-14 17:47:55,723 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174743.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,726 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174738.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,726 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174737.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,728 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174736.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,729 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174735.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,730 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174734.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,730 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174733.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,730 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174730.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,731 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174732.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,732 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174729.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,732 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174726.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,732 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174725.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,733 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174724.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,733 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174723.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,733 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174722.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,734 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174721.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,734 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174717.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,735 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174706.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,735 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174703.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,735 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174701.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,735 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174648.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,736 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174647.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,736 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174643.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,737 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174642.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,737 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174641.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,737 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174639.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,738 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174640.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,738 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174638.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,738 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174637.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,739 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174633.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,739 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174632.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:55,739 - INFO - 127.0.0.1 - - [14/Sep/2025 17:47:55] "[36mGET /static/unknown_faces/unknown_face_20250914_174631.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:47:58,042 - WARNING - Unknown face detected and saved: unknown_face_20250914_174758.jpg (confidence: 60.5)
+2025-09-14 17:47:58,043 - WARNING - Unknown face detected and saved: unknown_face_20250914_174758.jpg (confidence: 60.5)
+2025-09-14 17:47:58,375 - WARNING - Unknown face detected and saved: unknown_face_20250914_174758.jpg (confidence: 60.1)
+2025-09-14 17:47:58,378 - WARNING - Unknown face detected and saved: unknown_face_20250914_174758.jpg (confidence: 60.1)
+2025-09-14 17:47:58,439 - WARNING - Unknown face detected and saved: unknown_face_20250914_174758.jpg (confidence: 60.7)
+2025-09-14 17:47:58,441 - WARNING - Unknown face detected and saved: unknown_face_20250914_174758.jpg (confidence: 60.7)
+2025-09-14 17:47:58,509 - WARNING - Unknown face detected and saved: unknown_face_20250914_174758.jpg (confidence: 60.7)
+2025-09-14 17:47:58,512 - WARNING - Unknown face detected and saved: unknown_face_20250914_174758.jpg (confidence: 60.7)
+2025-09-14 17:47:58,706 - WARNING - Unknown face detected and saved: unknown_face_20250914_174758.jpg (confidence: 60.0)
+2025-09-14 17:47:58,707 - WARNING - Unknown face detected and saved: unknown_face_20250914_174758.jpg (confidence: 60.0)
+2025-09-14 17:48:01,440 - WARNING - Unknown face detected and saved: unknown_face_20250914_174801.jpg (confidence: 60.3)
+2025-09-14 17:48:01,441 - WARNING - Unknown face detected and saved: unknown_face_20250914_174801.jpg (confidence: 60.3)
+2025-09-14 17:48:02,009 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 60.1)
+2025-09-14 17:48:02,010 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 60.1)
+2025-09-14 17:48:02,410 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 60.1)
+2025-09-14 17:48:02,412 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 60.1)
+2025-09-14 17:48:02,475 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 60.8)
+2025-09-14 17:48:02,476 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 60.8)
+2025-09-14 17:48:02,675 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 60.2)
+2025-09-14 17:48:02,677 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 60.2)
+2025-09-14 17:48:02,742 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 61.2)
+2025-09-14 17:48:02,743 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 61.2)
+2025-09-14 17:48:02,941 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 60.7)
+2025-09-14 17:48:02,943 - WARNING - Unknown face detected and saved: unknown_face_20250914_174802.jpg (confidence: 60.7)
+2025-09-14 17:48:03,275 - WARNING - Unknown face detected and saved: unknown_face_20250914_174803.jpg (confidence: 60.0)
+2025-09-14 17:48:03,276 - WARNING - Unknown face detected and saved: unknown_face_20250914_174803.jpg (confidence: 60.0)
+2025-09-14 17:48:03,407 - WARNING - Unknown face detected and saved: unknown_face_20250914_174803.jpg (confidence: 60.1)
+2025-09-14 17:48:03,410 - WARNING - Unknown face detected and saved: unknown_face_20250914_174803.jpg (confidence: 60.1)
+2025-09-14 17:48:03,673 - WARNING - Unknown face detected and saved: unknown_face_20250914_174803.jpg (confidence: 60.3)
+2025-09-14 17:48:03,675 - WARNING - Unknown face detected and saved: unknown_face_20250914_174803.jpg (confidence: 60.3)
+2025-09-14 17:48:03,800 - WARNING - Unknown face detected and saved: unknown_face_20250914_174803.jpg (confidence: 60.3)
+2025-09-14 17:48:04,341 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 60.7)
+2025-09-14 17:48:04,342 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 60.7)
+2025-09-14 17:48:04,404 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 60.3)
+2025-09-14 17:48:04,407 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 60.3)
+2025-09-14 17:48:04,604 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 62.8)
+2025-09-14 17:48:04,605 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 62.8)
+2025-09-14 17:48:04,736 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 60.1)
+2025-09-14 17:48:04,739 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 60.1)
+2025-09-14 17:48:04,803 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 70.1)
+2025-09-14 17:48:04,804 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 70.1)
+2025-09-14 17:48:04,871 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 74.2)
+2025-09-14 17:48:04,872 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 74.2)
+2025-09-14 17:48:04,938 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 73.9)
+2025-09-14 17:48:04,939 - WARNING - Unknown face detected and saved: unknown_face_20250914_174804.jpg (confidence: 73.9)
+2025-09-14 17:48:05,140 - WARNING - Unknown face detected and saved: unknown_face_20250914_174805.jpg (confidence: 70.9)
+2025-09-14 17:48:05,142 - WARNING - Unknown face detected and saved: unknown_face_20250914_174805.jpg (confidence: 70.9)
+2025-09-14 17:48:05,206 - WARNING - Unknown face detected and saved: unknown_face_20250914_174805.jpg (confidence: 66.6)
+2025-09-14 17:48:05,208 - WARNING - Unknown face detected and saved: unknown_face_20250914_174805.jpg (confidence: 66.6)
+2025-09-14 17:48:05,746 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "GET /alerts HTTP/1.1" 200 -
+2025-09-14 17:48:05,755 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "GET /static/unknown_faces/unknown_face_20250914_174805.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:05,755 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "GET /static/unknown_faces/unknown_face_20250914_174804.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:05,810 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "GET /static/unknown_faces/unknown_face_20250914_174803.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:05,810 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "GET /static/unknown_faces/unknown_face_20250914_174802.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:05,813 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "GET /static/unknown_faces/unknown_face_20250914_174801.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:05,813 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "GET /static/unknown_faces/unknown_face_20250914_174758.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:05,817 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174755.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,818 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174750.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,818 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174748.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,819 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174747.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,820 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174746.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,820 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174745.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,820 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174743.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,820 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174744.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,820 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174738.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,822 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174737.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,823 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174736.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,823 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174734.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,823 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174735.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,824 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174732.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,824 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174730.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,824 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174733.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,825 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174729.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,826 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174726.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,826 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174724.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,827 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174723.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,827 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174725.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,827 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174722.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,827 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174721.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,828 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174717.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,828 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174706.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,828 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174703.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,829 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174648.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,830 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174701.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,830 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174643.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,830 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174647.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,831 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174642.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,831 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174641.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,832 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174640.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,832 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174639.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,833 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174638.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,834 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174637.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,834 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174633.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,836 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174632.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:05,836 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:05] "[36mGET /static/unknown_faces/unknown_face_20250914_174631.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:06,075 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 64.3)
+2025-09-14 17:48:06,076 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 64.3)
+2025-09-14 17:48:06,274 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 67.6)
+2025-09-14 17:48:06,275 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 67.6)
+2025-09-14 17:48:06,339 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 90.8)
+2025-09-14 17:48:06,340 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 74.7)
+2025-09-14 17:48:06,341 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 74.7)
+2025-09-14 17:48:06,343 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 90.8)
+2025-09-14 17:48:06,407 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 69.5)
+2025-09-14 17:48:06,408 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 69.5)
+2025-09-14 17:48:06,473 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 66.6)
+2025-09-14 17:48:06,476 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 66.6)
+2025-09-14 17:48:06,539 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 60.8)
+2025-09-14 17:48:06,541 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 60.8)
+2025-09-14 17:48:06,606 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 62.8)
+2025-09-14 17:48:06,607 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 62.8)
+2025-09-14 17:48:06,673 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 61.6)
+2025-09-14 17:48:06,675 - WARNING - Unknown face detected and saved: unknown_face_20250914_174806.jpg (confidence: 61.6)
+2025-09-14 17:48:07,299 - WARNING - Unknown face detected and saved: unknown_face_20250914_174807.jpg (confidence: 60.1)
+2025-09-14 17:48:07,669 - WARNING - Unknown face detected and saved: unknown_face_20250914_174807.jpg (confidence: 67.8)
+2025-09-14 17:48:07,670 - WARNING - Unknown face detected and saved: unknown_face_20250914_174807.jpg (confidence: 67.8)
+2025-09-14 17:48:07,735 - WARNING - Unknown face detected and saved: unknown_face_20250914_174807.jpg (confidence: 74.9)
+2025-09-14 17:48:07,737 - WARNING - Unknown face detected and saved: unknown_face_20250914_174807.jpg (confidence: 74.9)
+2025-09-14 17:48:07,803 - WARNING - Unknown face detected and saved: unknown_face_20250914_174807.jpg (confidence: 77.1)
+2025-09-14 17:48:07,805 - WARNING - Unknown face detected and saved: unknown_face_20250914_174807.jpg (confidence: 77.1)
+2025-09-14 17:48:07,871 - WARNING - Unknown face detected and saved: unknown_face_20250914_174807.jpg (confidence: 77.5)
+2025-09-14 17:48:07,873 - WARNING - Unknown face detected and saved: unknown_face_20250914_174807.jpg (confidence: 77.5)
+2025-09-14 17:48:08,271 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 75.3)
+2025-09-14 17:48:08,273 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 75.3)
+2025-09-14 17:48:08,334 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 72.9)
+2025-09-14 17:48:08,338 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 72.9)
+2025-09-14 17:48:08,405 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 71.7)
+2025-09-14 17:48:08,407 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 71.7)
+2025-09-14 17:48:08,472 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 64.8)
+2025-09-14 17:48:08,474 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 64.8)
+2025-09-14 17:48:08,540 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 64.9)
+2025-09-14 17:48:08,541 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 64.9)
+2025-09-14 17:48:08,607 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 63.4)
+2025-09-14 17:48:08,608 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 63.4)
+2025-09-14 17:48:08,670 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 62.3)
+2025-09-14 17:48:08,673 - WARNING - Unknown face detected and saved: unknown_face_20250914_174808.jpg (confidence: 62.3)
+2025-09-14 17:48:09,005 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.0)
+2025-09-14 17:48:09,006 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.0)
+2025-09-14 17:48:09,068 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 62.7)
+2025-09-14 17:48:09,072 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 62.7)
+2025-09-14 17:48:09,140 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 62.0)
+2025-09-14 17:48:09,141 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 62.0)
+2025-09-14 17:48:09,205 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 63.1)
+2025-09-14 17:48:09,208 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 63.1)
+2025-09-14 17:48:09,276 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.9)
+2025-09-14 17:48:09,277 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.9)
+2025-09-14 17:48:09,342 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.7)
+2025-09-14 17:48:09,344 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.7)
+2025-09-14 17:48:09,404 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.0)
+2025-09-14 17:48:09,407 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.0)
+2025-09-14 17:48:09,479 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.9)
+2025-09-14 17:48:09,481 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.9)
+2025-09-14 17:48:09,548 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.8)
+2025-09-14 17:48:09,549 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.8)
+2025-09-14 17:48:09,604 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.6)
+2025-09-14 17:48:09,607 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.6)
+2025-09-14 17:48:09,673 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 60.6)
+2025-09-14 17:48:09,674 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 60.6)
+2025-09-14 17:48:09,737 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 60.5)
+2025-09-14 17:48:09,740 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 60.5)
+2025-09-14 17:48:09,844 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 61.1)
+2025-09-14 17:48:09,922 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 60.1)
+2025-09-14 17:48:09,928 - WARNING - Unknown face detected and saved: unknown_face_20250914_174809.jpg (confidence: 60.1)
+2025-09-14 17:48:10,510 - WARNING - Unknown face detected and saved: unknown_face_20250914_174810.jpg (confidence: 61.0)
+2025-09-14 17:48:10,512 - WARNING - Unknown face detected and saved: unknown_face_20250914_174810.jpg (confidence: 61.0)
+2025-09-14 17:48:10,572 - WARNING - Unknown face detected and saved: unknown_face_20250914_174810.jpg (confidence: 60.7)
+2025-09-14 17:48:10,577 - WARNING - Unknown face detected and saved: unknown_face_20250914_174810.jpg (confidence: 60.7)
+2025-09-14 17:48:10,639 - WARNING - Unknown face detected and saved: unknown_face_20250914_174810.jpg (confidence: 61.6)
+2025-09-14 17:48:10,643 - WARNING - Unknown face detected and saved: unknown_face_20250914_174810.jpg (confidence: 61.6)
+2025-09-14 17:48:10,843 - WARNING - Unknown face detected and saved: unknown_face_20250914_174810.jpg (confidence: 60.5)
+2025-09-14 17:48:10,844 - WARNING - Unknown face detected and saved: unknown_face_20250914_174810.jpg (confidence: 60.5)
+2025-09-14 17:48:11,049 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.5)
+2025-09-14 17:48:11,050 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.5)
+2025-09-14 17:48:11,109 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.0)
+2025-09-14 17:48:11,115 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.0)
+2025-09-14 17:48:11,268 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.2)
+2025-09-14 17:48:11,305 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.5)
+2025-09-14 17:48:11,309 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.5)
+2025-09-14 17:48:11,374 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.8)
+2025-09-14 17:48:11,377 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.8)
+2025-09-14 17:48:11,441 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.5)
+2025-09-14 17:48:11,444 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.5)
+2025-09-14 17:48:11,505 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.6)
+2025-09-14 17:48:11,508 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.6)
+2025-09-14 17:48:11,576 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 62.3)
+2025-09-14 17:48:11,577 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 62.3)
+2025-09-14 17:48:11,641 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.9)
+2025-09-14 17:48:11,642 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.9)
+2025-09-14 17:48:11,710 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.7)
+2025-09-14 17:48:11,712 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.7)
+2025-09-14 17:48:11,776 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.5)
+2025-09-14 17:48:11,777 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.5)
+2025-09-14 17:48:11,842 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.1)
+2025-09-14 17:48:11,844 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.1)
+2025-09-14 17:48:11,907 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.8)
+2025-09-14 17:48:11,910 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 60.8)
+2025-09-14 17:48:11,976 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.6)
+2025-09-14 17:48:11,977 - WARNING - Unknown face detected and saved: unknown_face_20250914_174811.jpg (confidence: 61.6)
+2025-09-14 17:48:12,044 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.6)
+2025-09-14 17:48:12,044 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.6)
+2025-09-14 17:48:12,106 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.1)
+2025-09-14 17:48:12,110 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.1)
+2025-09-14 17:48:12,175 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.6)
+2025-09-14 17:48:12,176 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.6)
+2025-09-14 17:48:12,240 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.4)
+2025-09-14 17:48:12,244 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.4)
+2025-09-14 17:48:12,373 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 60.3)
+2025-09-14 17:48:12,376 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 60.3)
+2025-09-14 17:48:12,441 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 60.5)
+2025-09-14 17:48:12,443 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 60.5)
+2025-09-14 17:48:12,509 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 60.8)
+2025-09-14 17:48:12,511 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 60.8)
+2025-09-14 17:48:12,573 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 60.9)
+2025-09-14 17:48:12,575 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 60.9)
+2025-09-14 17:48:12,642 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.4)
+2025-09-14 17:48:12,643 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.4)
+2025-09-14 17:48:12,711 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.8)
+2025-09-14 17:48:12,712 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.8)
+2025-09-14 17:48:12,775 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.8)
+2025-09-14 17:48:12,776 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.8)
+2025-09-14 17:48:12,842 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.4)
+2025-09-14 17:48:12,844 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.4)
+2025-09-14 17:48:12,974 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.5)
+2025-09-14 17:48:12,978 - WARNING - Unknown face detected and saved: unknown_face_20250914_174812.jpg (confidence: 61.5)
+2025-09-14 17:48:13,107 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.8)
+2025-09-14 17:48:13,109 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.8)
+2025-09-14 17:48:13,141 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.4)
+2025-09-14 17:48:13,271 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 61.0)
+2025-09-14 17:48:13,274 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 61.0)
+2025-09-14 17:48:13,339 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.3)
+2025-09-14 17:48:13,343 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.3)
+2025-09-14 17:48:13,408 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.9)
+2025-09-14 17:48:13,409 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.9)
+2025-09-14 17:48:13,473 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.4)
+2025-09-14 17:48:13,476 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.4)
+2025-09-14 17:48:13,543 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 61.1)
+2025-09-14 17:48:13,545 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 61.1)
+2025-09-14 17:48:13,610 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.2)
+2025-09-14 17:48:13,611 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.2)
+2025-09-14 17:48:13,673 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.3)
+2025-09-14 17:48:13,676 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.3)
+2025-09-14 17:48:13,808 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 61.6)
+2025-09-14 17:48:13,809 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 61.6)
+2025-09-14 17:48:13,944 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.2)
+2025-09-14 17:48:13,945 - WARNING - Unknown face detected and saved: unknown_face_20250914_174813.jpg (confidence: 60.2)
+2025-09-14 17:48:14,074 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.5)
+2025-09-14 17:48:14,075 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.5)
+2025-09-14 17:48:14,136 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.9)
+2025-09-14 17:48:14,140 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.9)
+2025-09-14 17:48:14,208 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.3)
+2025-09-14 17:48:14,211 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.3)
+2025-09-14 17:48:14,270 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.3)
+2025-09-14 17:48:14,273 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.3)
+2025-09-14 17:48:14,340 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.1)
+2025-09-14 17:48:14,343 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.1)
+2025-09-14 17:48:14,409 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.3)
+2025-09-14 17:48:14,410 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.3)
+2025-09-14 17:48:14,543 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.6)
+2025-09-14 17:48:14,545 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.6)
+2025-09-14 17:48:14,609 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.6)
+2025-09-14 17:48:14,611 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.6)
+2025-09-14 17:48:14,677 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.8)
+2025-09-14 17:48:14,678 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.8)
+2025-09-14 17:48:14,739 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.2)
+2025-09-14 17:48:14,743 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.2)
+2025-09-14 17:48:14,875 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.2)
+2025-09-14 17:48:14,878 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.2)
+2025-09-14 17:48:14,942 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.9)
+2025-09-14 17:48:14,943 - WARNING - Unknown face detected and saved: unknown_face_20250914_174814.jpg (confidence: 60.9)
+2025-09-14 17:48:15,139 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.9)
+2025-09-14 17:48:15,143 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.9)
+2025-09-14 17:48:15,209 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.2)
+2025-09-14 17:48:15,211 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.2)
+2025-09-14 17:48:15,275 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.1)
+2025-09-14 17:48:15,277 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.1)
+2025-09-14 17:48:15,343 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.7)
+2025-09-14 17:48:15,345 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.7)
+2025-09-14 17:48:15,409 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.7)
+2025-09-14 17:48:15,409 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.7)
+2025-09-14 17:48:15,474 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.6)
+2025-09-14 17:48:15,478 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.6)
+2025-09-14 17:48:15,540 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 61.0)
+2025-09-14 17:48:15,543 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 61.0)
+2025-09-14 17:48:15,610 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.7)
+2025-09-14 17:48:15,611 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.7)
+2025-09-14 17:48:15,675 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.6)
+2025-09-14 17:48:15,676 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.6)
+2025-09-14 17:48:15,745 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.3)
+2025-09-14 17:48:15,746 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.3)
+2025-09-14 17:48:15,803 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.9)
+2025-09-14 17:48:15,806 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.9)
+2025-09-14 17:48:15,850 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /alerts HTTP/1.1" 200 -
+2025-09-14 17:48:15,875 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.5)
+2025-09-14 17:48:15,877 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.5)
+2025-09-14 17:48:15,877 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /static/unknown_faces/unknown_face_20250914_174815.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:15,879 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /static/unknown_faces/unknown_face_20250914_174814.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:15,881 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /static/unknown_faces/unknown_face_20250914_174812.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:15,881 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /static/unknown_faces/unknown_face_20250914_174813.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:15,881 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /static/unknown_faces/unknown_face_20250914_174811.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:15,882 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /static/unknown_faces/unknown_face_20250914_174810.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:15,893 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /static/unknown_faces/unknown_face_20250914_174808.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:15,893 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /static/unknown_faces/unknown_face_20250914_174809.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:15,893 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /static/unknown_faces/unknown_face_20250914_174807.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:15,894 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /static/unknown_faces/unknown_face_20250914_174806.jpg HTTP/1.1" 200 -
+2025-09-14 17:48:15,897 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174804.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,897 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174805.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,898 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174802.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,899 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174801.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,899 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174803.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,899 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174755.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,899 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174758.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,900 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174750.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,901 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174748.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,901 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174746.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,901 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174747.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,902 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174745.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,902 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174744.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,903 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174743.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,903 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174738.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,904 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174737.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,904 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174736.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,904 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174734.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,904 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174733.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,905 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174735.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,906 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174730.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,906 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174732.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,906 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174729.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,906 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174725.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,907 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174726.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,908 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174724.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,909 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174723.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,909 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174722.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,909 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174721.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,910 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174717.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,910 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174706.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,911 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174703.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,911 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174701.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,911 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174648.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,911 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174647.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,912 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174643.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,912 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174642.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,913 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174641.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,913 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174640.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,913 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174639.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,914 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174638.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,915 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174633.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,915 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174637.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,915 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174632.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,916 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:15] "[36mGET /static/unknown_faces/unknown_face_20250914_174631.jpg HTTP/1.1[0m" 304 -
+2025-09-14 17:48:15,947 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.2)
+2025-09-14 17:48:15,952 - WARNING - Unknown face detected and saved: unknown_face_20250914_174815.jpg (confidence: 60.2)
+2025-09-14 17:48:16,033 - WARNING - Unknown face detected and saved: unknown_face_20250914_174816.jpg (confidence: 60.3)
+2025-09-14 17:48:17,211 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.2)
+2025-09-14 17:48:17,213 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.2)
+2025-09-14 17:48:17,274 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 62.3)
+2025-09-14 17:48:17,277 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 62.3)
+2025-09-14 17:48:17,344 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 60.5)
+2025-09-14 17:48:17,345 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 60.5)
+2025-09-14 17:48:17,411 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 60.7)
+2025-09-14 17:48:17,411 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 60.7)
+2025-09-14 17:48:17,475 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.7)
+2025-09-14 17:48:17,478 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.7)
+2025-09-14 17:48:17,542 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 62.9)
+2025-09-14 17:48:17,545 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 62.9)
+2025-09-14 17:48:17,586 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.7)
+2025-09-14 17:48:17,587 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.7)
+2025-09-14 17:48:17,639 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.4)
+2025-09-14 17:48:17,643 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.4)
+2025-09-14 17:48:17,710 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 62.2)
+2025-09-14 17:48:17,712 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 62.2)
+2025-09-14 17:48:17,777 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.6)
+2025-09-14 17:48:17,780 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.6)
+2025-09-14 17:48:17,845 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 60.7)
+2025-09-14 17:48:17,847 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 60.7)
+2025-09-14 17:48:17,910 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 60.4)
+2025-09-14 17:48:17,914 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 60.4)
+2025-09-14 17:48:17,978 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.4)
+2025-09-14 17:48:17,980 - WARNING - Unknown face detected and saved: unknown_face_20250914_174817.jpg (confidence: 61.4)
+2025-09-14 17:48:18,044 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.2)
+2025-09-14 17:48:18,045 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.2)
+2025-09-14 17:48:18,109 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.7)
+2025-09-14 17:48:18,109 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.7)
+2025-09-14 17:48:18,175 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.9)
+2025-09-14 17:48:18,177 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.9)
+2025-09-14 17:48:18,241 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 62.0)
+2025-09-14 17:48:18,244 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 62.0)
+2025-09-14 17:48:18,309 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 62.3)
+2025-09-14 17:48:18,310 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 62.3)
+2025-09-14 17:48:18,376 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 62.2)
+2025-09-14 17:48:18,377 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 62.2)
+2025-09-14 17:48:18,445 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.4)
+2025-09-14 17:48:18,446 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.4)
+2025-09-14 17:48:18,507 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.6)
+2025-09-14 17:48:18,509 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.6)
+2025-09-14 17:48:18,579 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.3)
+2025-09-14 17:48:18,581 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.3)
+2025-09-14 17:48:18,643 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.9)
+2025-09-14 17:48:18,645 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.9)
+2025-09-14 17:48:18,709 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.2)
+2025-09-14 17:48:18,710 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.2)
+2025-09-14 17:48:18,776 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.3)
+2025-09-14 17:48:18,777 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.3)
+2025-09-14 17:48:18,844 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.5)
+2025-09-14 17:48:18,845 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.5)
+2025-09-14 17:48:18,916 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.4)
+2025-09-14 17:48:18,917 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 61.4)
+2025-09-14 17:48:18,979 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.2)
+2025-09-14 17:48:18,982 - WARNING - Unknown face detected and saved: unknown_face_20250914_174818.jpg (confidence: 60.2)
+2025-09-14 17:48:19,044 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.0)
+2025-09-14 17:48:19,045 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.0)
+2025-09-14 17:48:19,109 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.9)
+2025-09-14 17:48:19,110 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.9)
+2025-09-14 17:48:19,169 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.1)
+2025-09-14 17:48:19,172 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.1)
+2025-09-14 17:48:19,243 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.5)
+2025-09-14 17:48:19,246 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.5)
+2025-09-14 17:48:19,310 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.5)
+2025-09-14 17:48:19,311 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.5)
+2025-09-14 17:48:19,374 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.4)
+2025-09-14 17:48:19,376 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.4)
+2025-09-14 17:48:19,442 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.4)
+2025-09-14 17:48:19,443 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.4)
+2025-09-14 17:48:19,509 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.8)
+2025-09-14 17:48:19,511 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.8)
+2025-09-14 17:48:19,574 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.4)
+2025-09-14 17:48:19,577 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.4)
+2025-09-14 17:48:19,642 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.3)
+2025-09-14 17:48:19,645 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.3)
+2025-09-14 17:48:19,708 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.1)
+2025-09-14 17:48:19,712 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.1)
+2025-09-14 17:48:19,843 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.2)
+2025-09-14 17:48:19,844 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 60.2)
+2025-09-14 17:48:19,908 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.4)
+2025-09-14 17:48:19,909 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 61.4)
+2025-09-14 17:48:19,975 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 62.3)
+2025-09-14 17:48:19,976 - WARNING - Unknown face detected and saved: unknown_face_20250914_174819.jpg (confidence: 62.3)
+2025-09-14 17:48:20,042 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 61.1)
+2025-09-14 17:48:20,043 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 61.1)
+2025-09-14 17:48:20,104 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.2)
+2025-09-14 17:48:20,107 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.2)
+2025-09-14 17:48:20,175 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 61.5)
+2025-09-14 17:48:20,176 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 61.5)
+2025-09-14 17:48:20,242 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 61.3)
+2025-09-14 17:48:20,243 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 61.3)
+2025-09-14 17:48:20,306 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 61.5)
+2025-09-14 17:48:20,309 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 61.5)
+2025-09-14 17:48:20,372 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.4)
+2025-09-14 17:48:20,375 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.4)
+2025-09-14 17:48:20,443 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.2)
+2025-09-14 17:48:20,446 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.2)
+2025-09-14 17:48:20,510 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.8)
+2025-09-14 17:48:20,511 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.8)
+2025-09-14 17:48:20,642 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 61.3)
+2025-09-14 17:48:20,643 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 61.3)
+2025-09-14 17:48:20,777 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.6)
+2025-09-14 17:48:20,778 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.6)
+2025-09-14 17:48:20,977 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.2)
+2025-09-14 17:48:20,978 - WARNING - Unknown face detected and saved: unknown_face_20250914_174820.jpg (confidence: 60.2)
+2025-09-14 17:48:21,043 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.3)
+2025-09-14 17:48:21,044 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.3)
+2025-09-14 17:48:21,176 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.2)
+2025-09-14 17:48:21,178 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.2)
+2025-09-14 17:48:21,242 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 62.2)
+2025-09-14 17:48:21,245 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 62.2)
+2025-09-14 17:48:21,309 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 62.3)
+2025-09-14 17:48:21,309 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 62.3)
+2025-09-14 17:48:21,376 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 61.8)
+2025-09-14 17:48:21,378 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 61.8)
+2025-09-14 17:48:21,443 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 61.7)
+2025-09-14 17:48:21,446 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 61.7)
+2025-09-14 17:48:21,509 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 61.3)
+2025-09-14 17:48:21,512 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 61.3)
+2025-09-14 17:48:21,575 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.6)
+2025-09-14 17:48:21,578 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.6)
+2025-09-14 17:48:21,643 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 61.1)
+2025-09-14 17:48:21,644 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 61.1)
+2025-09-14 17:48:21,708 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.3)
+2025-09-14 17:48:21,712 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.3)
+2025-09-14 17:48:21,844 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.9)
+2025-09-14 17:48:21,845 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.9)
+2025-09-14 17:48:21,912 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.3)
+2025-09-14 17:48:21,913 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.3)
+2025-09-14 17:48:21,977 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.4)
+2025-09-14 17:48:21,978 - WARNING - Unknown face detected and saved: unknown_face_20250914_174821.jpg (confidence: 60.4)
+2025-09-14 17:48:22,042 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.3)
+2025-09-14 17:48:22,045 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.3)
+2025-09-14 17:48:22,108 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.3)
+2025-09-14 17:48:22,110 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.3)
+2025-09-14 17:48:22,175 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.2)
+2025-09-14 17:48:22,178 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.2)
+2025-09-14 17:48:22,241 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.8)
+2025-09-14 17:48:22,244 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.8)
+2025-09-14 17:48:22,375 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.1)
+2025-09-14 17:48:22,377 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.1)
+2025-09-14 17:48:22,508 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.3)
+2025-09-14 17:48:22,512 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.3)
+2025-09-14 17:48:22,573 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 62.4)
+2025-09-14 17:48:22,577 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 62.4)
+2025-09-14 17:48:22,649 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.4)
+2025-09-14 17:48:22,650 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.4)
+2025-09-14 17:48:22,710 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.0)
+2025-09-14 17:48:22,712 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.0)
+2025-09-14 17:48:22,774 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.2)
+2025-09-14 17:48:22,777 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.2)
+2025-09-14 17:48:22,843 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.8)
+2025-09-14 17:48:22,845 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.8)
+2025-09-14 17:48:22,908 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.0)
+2025-09-14 17:48:22,912 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 61.0)
+2025-09-14 17:48:22,974 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.3)
+2025-09-14 17:48:22,976 - WARNING - Unknown face detected and saved: unknown_face_20250914_174822.jpg (confidence: 60.3)
+2025-09-14 17:48:23,043 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.2)
+2025-09-14 17:48:23,044 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.2)
+2025-09-14 17:48:23,176 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.1)
+2025-09-14 17:48:23,177 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.1)
+2025-09-14 17:48:23,240 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.4)
+2025-09-14 17:48:23,244 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.4)
+2025-09-14 17:48:23,310 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 61.0)
+2025-09-14 17:48:23,311 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 61.0)
+2025-09-14 17:48:23,377 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 61.0)
+2025-09-14 17:48:23,378 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 61.0)
+2025-09-14 17:48:23,442 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.1)
+2025-09-14 17:48:23,445 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.1)
+2025-09-14 17:48:23,509 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.5)
+2025-09-14 17:48:23,512 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.5)
+2025-09-14 17:48:23,573 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.4)
+2025-09-14 17:48:23,579 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.4)
+2025-09-14 17:48:23,643 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.4)
+2025-09-14 17:48:23,645 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.4)
+2025-09-14 17:48:23,710 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.9)
+2025-09-14 17:48:23,711 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.9)
+2025-09-14 17:48:23,776 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.2)
+2025-09-14 17:48:23,777 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.2)
+2025-09-14 17:48:23,910 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.7)
+2025-09-14 17:48:23,911 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 60.7)
+2025-09-14 17:48:23,978 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 61.1)
+2025-09-14 17:48:23,979 - WARNING - Unknown face detected and saved: unknown_face_20250914_174823.jpg (confidence: 61.1)
+2025-09-14 17:48:24,044 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 61.0)
+2025-09-14 17:48:24,045 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 61.0)
+2025-09-14 17:48:24,108 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 61.0)
+2025-09-14 17:48:24,111 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 61.0)
+2025-09-14 17:48:24,175 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.2)
+2025-09-14 17:48:24,179 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.2)
+2025-09-14 17:48:24,244 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.8)
+2025-09-14 17:48:24,245 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.8)
+2025-09-14 17:48:24,308 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.1)
+2025-09-14 17:48:24,311 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.1)
+2025-09-14 17:48:24,378 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.7)
+2025-09-14 17:48:24,379 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.7)
+2025-09-14 17:48:24,507 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.3)
+2025-09-14 17:48:24,510 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.3)
+2025-09-14 17:48:24,577 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.4)
+2025-09-14 17:48:24,579 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.4)
+2025-09-14 17:48:24,644 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.5)
+2025-09-14 17:48:24,645 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.5)
+2025-09-14 17:48:24,711 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.8)
+2025-09-14 17:48:24,712 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.8)
+2025-09-14 17:48:24,777 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.3)
+2025-09-14 17:48:24,778 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.3)
+2025-09-14 17:48:24,844 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.6)
+2025-09-14 17:48:24,845 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 60.6)
+2025-09-14 17:48:24,976 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 62.8)
+2025-09-14 17:48:24,979 - WARNING - Unknown face detected and saved: unknown_face_20250914_174824.jpg (confidence: 62.8)
+2025-09-14 17:48:25,043 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 61.5)
+2025-09-14 17:48:25,045 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 61.5)
+2025-09-14 17:48:25,107 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 65.8)
+2025-09-14 17:48:25,109 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 65.8)
+2025-09-14 17:48:25,175 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 62.3)
+2025-09-14 17:48:25,177 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 62.3)
+2025-09-14 17:48:25,309 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 61.0)
+2025-09-14 17:48:25,311 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 61.0)
+2025-09-14 17:48:25,376 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 64.1)
+2025-09-14 17:48:25,378 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 64.1)
+2025-09-14 17:48:25,443 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 62.1)
+2025-09-14 17:48:25,445 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 62.1)
+2025-09-14 17:48:25,509 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 62.7)
+2025-09-14 17:48:25,511 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 62.7)
+2025-09-14 17:48:25,570 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 82.1)
+2025-09-14 17:48:25,572 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 82.1)
+2025-09-14 17:48:25,637 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 86.9)
+2025-09-14 17:48:25,638 - WARNING - Unknown face detected and saved: unknown_face_20250914_174825.jpg (confidence: 86.9)
+2025-09-14 17:48:36,020 - WARNING - Failed to read frame from camera
+2025-09-14 17:48:36,020 - WARNING - Failed to read frame from camera
+2025-09-14 17:48:36,035 - INFO - Face recognition session ended. Recognized 1 students
+2025-09-14 17:48:36,035 - INFO - Face recognition session ended. Recognized 1 students
+2025-09-14 17:48:43,416 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:43] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-09-14 17:48:43,428 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:43] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-14 17:48:43,429 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:43] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-14 17:48:43,436 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:43] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=NTZLfypjlHZfTVmAjyq2 HTTP/1.1[0m" 304 -
+2025-09-14 17:48:51,924 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:51] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-09-14 17:48:51,937 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-14 17:48:51,939 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-14 17:48:51,941 - INFO - 127.0.0.1 - - [14/Sep/2025 17:48:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=NTZLfypjlHZfTVmAjyq2 HTTP/1.1[0m" 304 -

@@ -1,17 +1,60 @@
 {% extends "base.html" %} {% block content %}
-<h2> Alerts</h2>
-<p>These faces need instructor verification:</p>
-<ul class="list-group">
+<h2>🚨 Security Alerts</h2>
+<p>Unknown faces detected - Instructor verification required:</p>
+
+{% if alerts %}
+<div class="row">
   {% for alert in alerts %}
-  <li class="list-group-item">
-    <img
-      src="{{ url_for('static', filename='images/' ~ alert.image) }}"
-      width="100"
-    />
-    <strong>{{ alert.name }}</strong> → {{ alert.reason }}
-    <a href="/approve/{{ alert.id }}" class="btn btn-success btn-sm">Approve</a>
-    <a href="/reject/{{ alert.id }}" class="btn btn-danger btn-sm">Reject</a>
-  </li>
+  <div class="col-md-6 mb-4">
+    <div class="card">
+      <div class="card-header">
+        <h5>Unknown Face Detected</h5>
+        <small class="text-muted">{{ alert.detected_time }}</small>
+      </div>
+      <div class="card-body">
+        <div class="text-center mb-3">
+          <img src="{{ url_for('static', filename='unknown_faces/' + alert.image_path) }}" 
+               class="img-fluid rounded" 
+               style="max-width: 200px; max-height: 200px;"
+               alt="Unknown Face">
+        </div>
+        
+        <form method="POST" action="/approve/{{ alert.id }}" class="mb-2">
+          <div class="mb-2">
+            <label class="form-label">Student Name:</label>
+            <input type="text" name="student_name" class="form-control" required>
+          </div>
+          <div class="mb-2">
+            <label class="form-label">Roll Number:</label>
+            <input type="text" name="roll_no" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-success btn-sm">
+            ✅ Approve & Mark Present
+          </button>
+        </form>
+        
+        <form method="POST" action="/reject/{{ alert.id }}">
+          <button type="submit" class="btn btn-danger btn-sm" 
+                  onclick="return confirm('Mark this person as a security threat?')">
+            🚨 Mark as Threat
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
   {% endfor %}
-</ul>
+</div>
+{% else %}
+<div class="alert alert-success">
+  <h4>✅ No Active Alerts</h4>
+  <p>All faces have been processed. The system is monitoring for new unknown faces.</p>
+</div>
+{% endif %}
+
+<script>
+// Auto-refresh alerts every 10 seconds
+setTimeout(function() {
+  location.reload();
+}, 10000);
+</script>
 {% endblock %}
