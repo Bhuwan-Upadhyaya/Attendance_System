@@ -117,28 +117,7 @@ def open_browser():
     thread = threading.Thread(target=open_url, daemon=True)
     thread.start()
 
-# Initialize database and start systems
-if __name__ == "__main__":
-    print(" ATTENDANCE SYSTEM STARTING...")
-    print("=" * 50)
-    
-    # Create tables if they don't exist
-    create_tables()
-    
-    # Update database structure
-    update_database_structure()
-    
-    # Start face recognition
-    start_face_recognition()
-    
-    # Open browser
-    open_browser()
-    
-    print("All systems started!")
-    print("Web Dashboard: http://127.0.0.1:5000")
-    print("Face Recognition: Active")
-    print("Ready for attendance marking!")
-    print("=" * 50)
+# (Removed early __main__ block to avoid double-execution with Flask reloader)
 
 # ---------- Home ----------
 @app.route("/")
@@ -152,7 +131,7 @@ def dashboard():
     conn = sqlite3.connect(DB_PATH)
     df = pd.read_sql_query(
         """
-        SELECT student_id, name, status, timestamp
+        SELECT student_id, student_name AS name, status, timestamp
         FROM attendance
         WHERE date(timestamp) = date('now')
         ORDER BY timestamp DESC
@@ -220,9 +199,9 @@ def approve_face(alert_id):
                 return f"✅ Student {student_name} approved and marked present! <a href='/alerts'>Back to Alerts</a>"
                 
             except Exception as e:
-                return f"❌ Error approving student: {str(e)}"
+                return f" Error approving student: {str(e)}"
         
-        return "❌ Please provide student name and roll number"
+        return " Please provide student name and roll number"
 
 # ---------- Reject Unknown Face (Mark as Threat) ----------
 @app.route("/reject/<int:alert_id>", methods=["POST"])
@@ -241,10 +220,10 @@ def reject_face(alert_id):
         conn.commit()
         conn.close()
         
-        return "⚠️ Face marked as threat! Security has been notified. <a href='/alerts'>Back to Alerts</a>"
+        return "Face marked as threat! Security has been notified. <a href='/alerts'>Back to Alerts</a>"
         
     except Exception as e:
-        return f"❌ Error rejecting face: {str(e)}"
+        return f" Error rejecting face: {str(e)}"
 
 # ---------- Get Recent Attendance (for real-time updates) ----------
 @app.route("/api/recent_attendance")
@@ -272,6 +251,26 @@ def alert_count():
     count = cursor.fetchone()[0]
     conn.close()
     return {"count": count}
+# ---------- Search Students ----------
+@app.route("/api/search_students")
+def search_students():
+    q = request.args.get("q", "").strip()
+    if not q:
+        return []
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    cursor.execute(
+        """
+        SELECT name, roll_no, '' as email, '' as phone
+        FROM students
+        WHERE name LIKE ? OR roll_no LIKE ?
+        ORDER BY name ASC
+        """,
+        (f"%{q}%", f"%{q}%"),
+    )
+    rows = cursor.fetchall()
+    conn.close()
+    return [{"name": r[0], "roll_no": r[1], "email": r[2], "phone": r[3]} for r in rows]
 
 
 # ---------- Add Student ----------
@@ -303,4 +302,25 @@ def download_csv():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="127.0.0.1", port=5000)
+    print(" ATTENDANCE SYSTEM STARTING...")
+    print("=" * 50)
+
+    # Create tables if they don't exist and migrate structure
+    create_tables()
+    update_database_structure()
+
+    # Guard to avoid running side-effects twice under Flask reloader
+    import os as _os
+    is_reloader_main = _os.environ.get("WERKZEUG_RUN_MAIN") == "true"
+    if not app.debug or is_reloader_main:
+        # Start face recognition and open browser once
+        start_face_recognition()
+        open_browser()
+
+        print("All systems started!")
+        print("Web Dashboard: http://127.0.0.1:5000")
+        print("Face Recognition: Active")
+        print("Ready for attendance marking!")
+        print("=" * 50)
+
+    app.run(debug=True, host="127.0.0.1", port=5000, use_reloader=False)

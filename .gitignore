@@ -1,0 +1,14 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+
+# Ignore local database
+*.sqlite3
+
+# Ignore unknown faces
+frontend/static/unknown_faces/
+# also faces
+data/faces/train

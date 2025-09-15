@@ -1,94 +1,274 @@
 {% extends "base.html" %} {% block content %}
-<h2>📊 Live Attendance Dashboard</h2>
+<h2 class="mb-4">STUDENT MANAGEMENT SYSTEM</h2>
 
-<div class="row mb-3">
-  <div class="col-md-6">
-    <a href="/download_csv" class="btn btn-primary">⬇️ Download CSV</a>
-    <a href="/alerts" class="btn btn-warning" id="alertsBtn">🚨 Alerts (<span id="alertCount">0</span>)</a>
-  </div>
-  <div class="col-md-6 text-end">
-    <small class="text-muted">Last updated: <span id="lastUpdate">Loading...</span></small>
-  </div>
-</div>
+<div class="row g-4">
+  <!-- Left half: student info forms -->
+  <div class="col-lg-6">
+    <div class="card mb-4">
+      <div class="card-header bg-primary text-white">
+        Current Course Information
+      </div>
+      <div class="card-body">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">Department</label>
+            <input
+              type="text"
+              class="form-control"
+              id="dept"
+              placeholder="e.g., Engineering"
+            />
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Course</label>
+            <input
+              type="text"
+              class="form-control"
+              id="course"
+              placeholder="e.g., B.Tech"
+            />
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Major</label>
+            <input
+              type="text"
+              class="form-control"
+              id="major"
+              placeholder="e.g., CS"
+            />
+          </div>
+          <div class="col-md-3">
+            <label class="form-label">Year</label>
+            <input
+              type="number"
+              class="form-control"
+              id="year"
+              min="1"
+              max="5"
+            />
+          </div>
+          <div class="col-md-3">
+            <label class="form-label">Semester</label>
+            <input
+              type="number"
+              class="form-control"
+              id="semester"
+              min="1"
+              max="10"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
-<div class="table-responsive">
-  <table class="table table-striped" id="attendanceTable">
-    <thead class="table-dark">
-      <tr>
-        <th>Student Name</th>
-        <th>Status</th>
-        <th>Time</th>
-        <th>Actions</th>
-      </tr>
-    </thead>
-    <tbody id="attendanceBody">
-      {% for record in records %}
-      <tr>
-        <td><strong>{{ record.student_name }}</strong></td>
-        <td><span class="badge bg-success">{{ record.status }}</span></td>
-        <td>{{ record.timestamp }}</td>
-        <td><small class="text-muted">Auto-detected</small></td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+    <div class="card">
+      <div class="card-header bg-secondary text-white">
+        Student Personal Information
+      </div>
+      <div class="card-body">
+        <div class="row g-3">
+          <div class="col-md-4">
+            <label class="form-label">Student ID</label>
+            <input type="text" class="form-control" id="studentId" />
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Class Division</label>
+            <input type="text" class="form-control" id="classDivision" />
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Roll No</label>
+            <input type="text" class="form-control" id="rollNo" />
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">DOB</label>
+            <input type="date" class="form-control" id="dob" />
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Gender</label>
+            <select class="form-select" id="gender">
+              <option value="">Select...</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Advisor</label>
+            <input type="text" class="form-control" id="advisor" />
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="phone" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right half: view/search -->
+  <div class="col-lg-6">
+    <div class="card mb-4">
+      <div class="card-header bg-dark text-white">View Student Details</div>
+      <div class="card-body">
+        <div class="d-flex gap-2 mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="searchQuery"
+            placeholder="Search by name or roll number"
+          />
+          <button class="btn btn-primary" id="searchBtn">Search</button>
+        </div>
+        <div id="searchResults" class="table-responsive" style="display: none">
+          <table class="table table-striped">
+            <thead class="table-light">
+              <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th>Email</th>
+                <th>Phone</th>
+              </tr>
+            </thead>
+            <tbody id="searchBody"></tbody>
+          </table>
+        </div>
+        <div id="noResults" class="alert alert-warning" style="display: none">
+          No matching students found.
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header bg-success text-white">Today's Attendance</div>
+      <div class="card-body">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <a href="/download_csv" class="btn btn-primary">⬇️ Download CSV</a>
+            <a href="/alerts" class="btn btn-warning" id="alertsBtn"
+              >🚨 Alerts (<span id="alertCount">0</span>)</a
+            >
+          </div>
+          <div class="col-md-6 text-end">
+            <small class="text-muted"
+              >Last updated: <span id="lastUpdate">Loading...</span></small
+            >
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-striped" id="attendanceTable">
+            <thead class="table-dark">
+              <tr>
+                <th>Student Name</th>
+                <th>Status</th>
+                <th>Time</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="attendanceBody">
+              {% for record in records %}
+              <tr>
+                <td><strong>{{ record.student_name }}</strong></td>
+                <td>
+                  <span class="badge bg-success">{{ record.status }}</span>
+                </td>
+                <td>{{ record.timestamp }}</td>
+                <td><small class="text-muted">Auto-detected</small></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 {% if not records %}
-<div class="alert alert-info">
+<div class="alert alert-info mt-3">
   <h4>📋 No Attendance Records Today</h4>
-  <p>Students will appear here automatically when they are recognized by the camera.</p>
+  <p>
+    Students will appear here automatically when they are recognized by the
+    camera.
+  </p>
+  <p class="mb-0">Use the search above to view student details.</p>
 </div>
 {% endif %}
 
 <script>
-// Real-time updates
-function updateDashboard() {
-  fetch('/api/recent_attendance')
-    .then(response => response.json())
-    .then(data => {
-      const tbody = document.getElementById('attendanceBody');
-      tbody.innerHTML = '';
-      
-      data.forEach(record => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
+  // Real-time updates for attendance and alert count
+  function updateDashboard() {
+    fetch("/api/recent_attendance")
+      .then((response) => response.json())
+      .then((data) => {
+        const tbody = document.getElementById("attendanceBody");
+        tbody.innerHTML = "";
+        data.forEach((record) => {
+          const row = document.createElement("tr");
+          row.innerHTML = `
           <td><strong>${record.student_name}</strong></td>
           <td><span class="badge bg-success">${record.status}</span></td>
           <td>${record.timestamp}</td>
           <td><small class="text-muted">Auto-detected</small></td>
         `;
-        tbody.appendChild(row);
-      });
-      
-      document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString();
-    })
-    .catch(error => console.error('Error updating dashboard:', error));
-}
+          tbody.appendChild(row);
+        });
+        document.getElementById("lastUpdate").textContent =
+          new Date().toLocaleTimeString();
+      })
+      .catch((error) => console.error("Error updating dashboard:", error));
+  }
 
-function updateAlertCount() {
-  fetch('/api/alert_count')
-    .then(response => response.json())
-    .then(data => {
-      document.getElementById('alertCount').textContent = data.count;
-      
-      // Change button color if there are alerts
-      const alertBtn = document.getElementById('alertsBtn');
-      if (data.count > 0) {
-        alertBtn.className = 'btn btn-danger';
-      } else {
-        alertBtn.className = 'btn btn-warning';
-      }
-    })
-    .catch(error => console.error('Error updating alert count:', error));
-}
+  function updateAlertCount() {
+    fetch("/api/alert_count")
+      .then((response) => response.json())
+      .then((data) => {
+        document.getElementById("alertCount").textContent = data.count;
+        const alertBtn = document.getElementById("alertsBtn");
+        alertBtn.className =
+          data.count > 0 ? "btn btn-danger" : "btn btn-warning";
+      })
+      .catch((error) => console.error("Error updating alert count:", error));
+  }
 
-// Update every 3 seconds
-setInterval(updateDashboard, 3000);
-setInterval(updateAlertCount, 3000);
+  // Simple search UI calling backend endpoint
+  document.getElementById("searchBtn").addEventListener("click", () => {
+    const q = document.getElementById("searchQuery").value.trim();
+    if (!q) {
+      return;
+    }
+    fetch(`/api/search_students?q=${encodeURIComponent(q)}`)
+      .then((res) => res.json())
+      .then((list) => {
+        const body = document.getElementById("searchBody");
+        const results = document.getElementById("searchResults");
+        const no = document.getElementById("noResults");
+        body.innerHTML = "";
+        if (!list || list.length === 0) {
+          results.style.display = "none";
+          no.style.display = "block";
+          return;
+        }
+        list.forEach((s) => {
+          const tr = document.createElement("tr");
+          tr.innerHTML = `<td>${s.name}</td><td>${s.roll_no}</td><td>${
+            s.email || ""
+          }</td><td>${s.phone || ""}</td>`;
+          body.appendChild(tr);
+        });
+        no.style.display = "none";
+        results.style.display = "block";
+      })
+      .catch((err) => console.error("Search error", err));
+  });
 
-// Initial update
-updateDashboard();
-updateAlertCount();
+  setInterval(updateDashboard, 3000);
+  setInterval(updateAlertCount, 3000);
+  updateDashboard();
+  updateAlertCount();
 </script>
 {% endblock %}

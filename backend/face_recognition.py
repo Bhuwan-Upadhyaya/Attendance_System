@@ -110,7 +110,7 @@ else:
 haar_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
 # Load trained recognizer
-recognizer = cv2.face.LBPHFaceRecognizer_create()
+recognizer = cv2.face.LBPHFaceRecognizer_create() if hasattr(cv2.face, "LBPHFaceRecognizer_create") else cv2.createLBPHFaceRecognizer()
 if os.path.exists(MODEL_PATH):
     recognizer.read(MODEL_PATH)
     logging.info(f"Loaded face recognizer model from {MODEL_PATH}")

@@ -72,7 +72,7 @@ print(f" Collected {len(faces)} face images for training.")
 
 # Train recognizer
 logging.info("Starting face recognizer training...")
-face_recognizer = cv.face.LBPHFaceRecognizer_create()
+face_recognizer = cv.face.LBPHFaceRecognizer_create() if hasattr(cv.face, "LBPHFaceRecognizer_create") else cv.createLBPHFaceRecognizer()
 face_recognizer.train(faces, labels)
 logging.info("Face recognizer training completed")
 
